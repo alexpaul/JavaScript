@@ -24,9 +24,23 @@ JavaScript is a weakly typed language.
 
 Returns a string of the data type primitive. 
 
+```javascript 
+typeof('hello'); // string 
+typeof(2); // number 
+typeof(true); // boolean
+```
+
 #### `instanceof`
 
 Returns a Boolean of if a value matches the data type. 
+
+```javascript 
+let str = new String() // new instance of String
+
+if (str instanceof String) {
+  console.log('It is a String value') // It is a String value
+} 
+```
 
 ## Equality 
 
