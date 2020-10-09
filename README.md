@@ -10,6 +10,7 @@ Beginning JavaScript.
 * npm 
 * nvm 
 * JIT
+* VS Code Extensions
 
 ## Resources 
 
