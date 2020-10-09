@@ -7,8 +7,8 @@ JavaScript is a weakly (loosely) typed language as opposed to Swift that is a st
 In this example the type `name` is not strongly tied to forever be a `String`. Re-assigning the data type to be a `Number` does not cause a compile-time error like a language like Swift. This causes the developer to check types when working through various coding logic. 
 
 ```javascript 
-let name = "Alex"; 
-name = 10; 
+let name = "Alex"; // name here is a string
+name = 10; // name is now a number
 
 console.log(`${name + 7}`); // name here is a number
 ```
