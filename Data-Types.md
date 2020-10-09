@@ -21,7 +21,7 @@ In this Swift example we would get a compile time error as we cannot re-assign t
 var name = "Alex";
 name = 10; // COMPILER ERROR - cannot assign type Int to expected type String
 
-print("\(name + 7)") // name here is a number
+print("\(name + 7)") // COMPILER ERROR - cannot convert value Int to expected value String
 ```
 
 
