@@ -37,3 +37,12 @@ const str1 = 'Learning';
 const str2 = 'JavaScript';
 console.log(str1 + ' ' +  str2); // Learning JavaScript
 ```
+
+Be careful with accidentally thinking the logic below will result in a math addition
+
+```javascript 
+const value1 = '1';
+const value2 = 1; 
+// answer is 11 here as JavaScript will treat the evaluation as concatenation of two String not adding numbers e.g 1 + 1 is 2. 
+console.log(value1 + value2) 
+```
