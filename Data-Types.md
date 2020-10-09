@@ -1,6 +1,29 @@
 # Data Types
 
-JavaScript is a weakly typed language. 
+JavaScript is a weakly (loosely) typed language as opposed to Swift that is a strongly typed language. 
+
+#### Example of a weakly typed language
+
+In this example the type `name` is not strongly tied to forever be a `String`. Re-assigning the data type to be a `Number` does not cause a compile-time error like a language like Swift. This causes the developer to check types when working through various coding logic. 
+
+```javascript 
+let name = "Alex"; 
+name = 10; 
+
+console.log(`${name + 7}`); // name here is a number
+```
+
+#### Example of a strongly typed language
+
+In this Swift example we would get a compile time error as we cannot re-assign the name data type to an `Int`. 
+
+```swift 
+var name = "Alex";
+name = 10; // COMPILER ERROR - cannot assign type Int to expected type String
+
+print("\(name + 7)") // name here is a number
+```
+
 
 ## Simple Types 
 
