@@ -21,6 +21,8 @@ console.log('Current count is %s', count);
 
 ## Template literals 
 
+Template literals are backtick embedded strings with the use of `${variableName}` as a placeholder.
+
 ```javascript 
 const value1 = 10;
 const value2 = 23; 
