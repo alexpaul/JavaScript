@@ -57,7 +57,7 @@ const value2 = 1;
 console.log(value1 + value2) 
 ```
 
-## Converting String to Number 
+## Converting String to Number `parseInt()`
 
 #### Example 1 
 
@@ -78,14 +78,14 @@ console.log(parseInt('.123')); // NaN , sees a special character and return NaN 
 console.log(parseInt('1 23')); // 1 , only parses the first number and ignores everything after the space
 ```
 
-## Converting String to Float
+## Converting String to Float `parseFloat()`
 
 ```javascript 
 console.log(parseFloat(2.50 + 0.13)); // 2.63
 console.log(parseFloat('five')); // NaN
 ```
 
-## Converting Number to String
+## Converting Number to String `toString()`
 
 ```javascript 
 let number = 150; 
