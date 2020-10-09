@@ -36,4 +36,4 @@ let x = 0 == ''; // true, type coerced (evaluates as the same type)
 let x = 0 === ''; // false, better usage for equality as it respects the types in the case of `===`
 ```
 
-> Note: Always use the `===` to test types for equality. 
+> Reminder: Always use the `===` to test types for equality. 
