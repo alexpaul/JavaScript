@@ -9,6 +9,11 @@ var language = 'Objective-C';
 language = 'Swift';
 ```
 
+```javascript 
+language = 'Swift'; // can be used before it is defined
+var language = 'Objective-C';
+```
+
 ## `const`
 
 > `const` represents a constant variable. This variable cannot be mutated. 
@@ -26,3 +31,5 @@ age = 11; // typeError { Assignment to constant variable. }
 let year = 2020; 
 year = 2021; 
 ```
+
+> default to using `const` unless you need to mutate the variable, avoid using `var` as it has side effects as we saw from above in that it can be used before being initialized.
