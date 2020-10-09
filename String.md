@@ -56,3 +56,32 @@ const value2 = 1;
 // answer is 11 here as JavaScript will treat the evaluation as concatenation of two String not adding numbers e.g 1 + 1 is 2. 
 console.log(value1 + value2) 
 ```
+
+## Converting String to Number 
+
+```javascript 
+let stringNum = '150'; 
+
+console.log(parseInt(`${2020 + 1}`)); // 2021
+console.log(parseInt(stringNum)); // 150
+console.log(parseInt('eight')); // NaN
+console.log(parseInt('0xF')); // hexadecimal number
+```
+
+## Converting String to Float
+
+```javascript 
+console.log(parseFloat(2.50 + 0.13)); // 2.63
+console.log(parseFloat('five')); // NaN
+```
+
+## Converting Number to String
+
+```javascript 
+let number = 150; 
+let floatValue = 1.50; 
+
+console.log(number.toString()); // '150'
+console.log(floatValue.toString()); // '1.50'
+console.log((100).toString()); // '100'
+```
