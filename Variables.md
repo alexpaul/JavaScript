@@ -1,5 +1,14 @@
 # Variables 
 
+## `var`
+
+> available anwhere within the function scoped even before it is defined.
+
+```javascript 
+var language = 'Objective-C';
+language = 'Swift';
+```
+
 ## `const`
 
 > `const` represents a constant variable. This variable cannot be mutated. 
