@@ -59,6 +59,8 @@ console.log(value1 + value2)
 
 ## Converting String to Number 
 
+#### Example 1 
+
 ```javascript 
 let stringNum = '150'; 
 
@@ -66,6 +68,14 @@ console.log(parseInt(`${2020 + 1}`)); // 2021
 console.log(parseInt(stringNum)); // 150
 console.log(parseInt('eight')); // NaN
 console.log(parseInt('0xF')); // hexadecimal number
+```
+
+#### Example 2
+
+```javascript 
+console.log(parseInt('  123')); // 123, ignores the spaces 
+console.log(parseInt('.123')); // NaN , sees a special character and return NaN (not a number)
+console.log(parseInt('1 23')); // 1 , only parses the first number and ignores everything after the space
 ```
 
 ## Converting String to Float
