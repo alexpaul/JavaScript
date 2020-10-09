@@ -1,1 +1,3 @@
 # JavaScript
+
+Beginning JavaScript.
