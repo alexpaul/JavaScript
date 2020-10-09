@@ -59,3 +59,21 @@ let number = 15;
 let remainder = number % 10; 
 console.log(`The remainder is ${remainder}`) // 5
 ```
+
+## Using the `Math` object
+
+> MDN documentation: Math is a built-in object that has properties and methods for mathematical constants and functions. It’s not a function object.
+
+> Note: Math works with the Number type. It doesn't work with BigInt.
+
+#### `Pi`
+```javascript 
+const pi = Math.PI; 
+console.log(`Pi is ${pi}`); // Pi is 3.141592653589793
+```
+
+#### `sqrt()`
+```javascript 
+const number = 81; 
+console.log(`The sqrt of ${number} is ${Math.sqrt(number)}`); // The sqrt of 81 is 9
+```
