@@ -42,6 +42,50 @@ if (str instanceof String) {
 } 
 ```
 
+#### More examples of testing `typeof` and `instanceof`
+
+```javascript 
+const fellows = ['Brian', 'Herb', 'Ashley', 'Kim']; 
+const isFriday = true; 
+const year = 2020;
+const description = 'Incredible'; 
+const person = {
+  'firstName': 'Alex',
+  'lastName': 'Paul'
+};
+
+function greeting(aPerson) {
+  console.log(`The person\'s first name is ${aPerson.firstName}`);
+}
+
+console.log('----typeof----');
+console.log(typeof fellows); // object
+console.log(typeof isFriday); // boolean
+console.log(typeof year); // number
+console.log(typeof description); // string
+console.log(typeof person); // object
+console.log(typeof greeting); // function
+
+console.log('----instanceof----');
+console.log(fellows instanceof Array); // true 
+console.log(isFriday instanceof Boolean); // false 
+console.log(year instanceof Number); // false 
+console.log(description instanceof String); // false 
+console.log(person instanceof Object); // true
+console.log(greeting instanceof Function); // true
+```
+
+> Note: console.log(isFriday instanceof Boolean) returns false since this is a literal declaration and NOT a constructor instance.
+
+A constructor instance would be 
+
+```javascript 
+let newStringInstance = new String('Hello'); 
+
+console.log(newStringInstance instanceof String); // true 
+```
+
+
 ## Equality 
 
 ```javascript 
