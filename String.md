@@ -19,7 +19,7 @@ let count = 0
 console.log('Current count is %s', count); 
 ```
 
-## Template literals 
+## Template literals `${}`
 
 ```javascript 
 const value1 = 10;
