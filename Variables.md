@@ -96,6 +96,7 @@ let earlierMonth = age - 1;
 console.log(`I will be either ${earlierMonth} or ${age} in ${currentYear}`); 
 // I will be either 20 or 21 in 1999 🥳 🍻
 ```
+</details> 
 
 #### Challenge 4 
 
@@ -123,4 +124,6 @@ let jobTitle = 'Soccer Coach'
 console.log(`You will be a ${jobTitle} in ${geographicLocation.state}, and married to ${partnersName} with ${numberOfChildren} kids`); 
 // You will be a Soccer Coach in California and married to Sarah with 11 kids 🤯
 ```
+
+</details>
 
