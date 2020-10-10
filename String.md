@@ -95,3 +95,18 @@ console.log(number.toString()); // '150'
 console.log(floatValue.toString()); // '1.50'
 console.log((100).toString()); // '100'
 ```
+
+## Challenges 
+
+#### Challenge 1
+
+Use escape characters to console log: We are "Vikings".
+
+<details> 
+  <summary>Solution</summary> 
+
+```javascript 
+console.log('We are \"Vikings\"'); // We are "Vikings"
+```
+
+</details>
