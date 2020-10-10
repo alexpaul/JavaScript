@@ -33,3 +33,42 @@ year = 2021;
 ```
 
 > default to using `const` unless you need to mutate the variable, avoid using `var` as it has side effects as we saw from above in that it can be used before being initialized.
+
+## Challenges 
+
+#### Challenge 1 
+
+Display the sum of 5 + 10, using two variables: x and y.
+
+<details> 
+  <summary>Solution</summary> 
+
+```javascript 
+let x = 5; 
+let y = 10; 
+console.log(`The sum of ${x} + ${y} is ${x + y}`); 
+// The sum of 5 + 10 is 15
+```
+
+</details> 
+
+#### Challenge 2
+
+On one single line, declare three variables with the following names and values:
+
+```javascript 
+firstName = "John"
+lastName = "Doe"
+age = 35 
+```
+
+<details> 
+  <summary>Solution</summary> 
+
+```javascript 
+var firstName = 'John', lastName = 'Doe', age = 35; 
+```
+
+</details> 
+
+
