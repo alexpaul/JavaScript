@@ -71,4 +71,28 @@ var firstName = 'John', lastName = 'Doe', age = 35;
 
 </details> 
 
+#### Challenge 3 
 
+The Age Calculator
+
+Want to find out how old you'll be? Calculate it!
+
+Store your birth year in a variable.
+Store a future year in a variable.
+Calculate your 2 possible ages for that year based on the stored values.
+For example, if you were born in 1988, then in 2026 you'll be either 37 or 38, depending on what month it is in 2026.
+Output them to the screen like so: "I will be either NN or NN in YYYY", substituting the values.
+
+<details> 
+  <summary>Solution</summary> 
+
+```javascript 
+const birthYear = 1978; 
+let currentYear = 1999; 
+
+let age = currentYear - birthYear; 
+let earlierMonth = age - 1; 
+
+console.log(`I will be either ${earlierMonth} or ${age} in ${currentYear}`); 
+// I will be either 20 or 21 in 1999 🥳 🍻
+```
