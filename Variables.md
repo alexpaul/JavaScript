@@ -66,7 +66,7 @@ age = 35
   <summary>Solution</summary> 
 
 ```javascript 
-var firstName = 'John', lastName = 'Doe', age = 35; 
+let firstName = 'John', lastName = 'Doe', age = 35; 
 ```
 
 </details> 
