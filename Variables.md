@@ -96,3 +96,31 @@ let earlierMonth = age - 1;
 console.log(`I will be either ${earlierMonth} or ${age} in ${currentYear}`); 
 // I will be either 20 or 21 in 1999 🥳 🍻
 ```
+
+#### Challenge 4 
+
+The Fortune Teller
+
+Why pay a fortune teller when you can just program your fortune yourself?
+
+Store the following into variables: number of children, partner's name, geographic location, job title.
+Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+
+
+<details> 
+  <summary>Solution</summary> 
+
+```javascript 
+let numberOfChildren = 11; 
+let partnersName = 'Sarah'; 
+let geographicLocation = {
+  'latitude': 36.7783, 
+  'longitude': 119.4179, 
+  'state': 'California'
+}
+let jobTitle = 'Soccer Coach'
+
+console.log(`You will be a ${jobTitle} in ${geographicLocation.state}, and married to ${partnersName} with ${numberOfChildren} kids`); 
+// You will be a Soccer Coach in California and married to Sarah with 11 kids 🤯
+```
+
