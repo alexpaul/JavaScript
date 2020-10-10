@@ -8,7 +8,7 @@
 throw 'someException'; 
 ```
 
-## `try{}catch{}`
+## `try...catch`
 
 ```javascript 
 function fetchData() {
@@ -27,7 +27,7 @@ try {
 }
 ```
 
-## `try{}catch{}finally{}`
+## `try...catch...finally`
 
 ```javascript 
 try {
