@@ -9,7 +9,7 @@ const doubleQuoteStr = "JavaScript";
 ## Single quotes 
 
 ```javascript 
-let singleQuoteStr = 'JavaScript';
+const singleQuoteStr = 'JavaScript';
 ```
 
 ## Substitutions 
