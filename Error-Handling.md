@@ -29,7 +29,7 @@ try {
 
 ```javascript 
 try {
-  throw someErrorThrownHere; 
+  throw 'someErrorThrownHere'; 
 } catch(error) {
   logError(error); 
 } finally {
