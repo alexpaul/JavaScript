@@ -110,3 +110,18 @@ console.log('We are \"Vikings\"'); // We are "Vikings"
 ```
 
 </details>
+
+#### Challenge 2
+
+Create two constants to store "Hello" and "Swift" to form "Hello Swift". 
+
+<details> 
+  <summary>Solution</summary> 
+
+```javascript 
+const msg1 = 'Hello'; 
+const msg2 = 'Swift'; 
+console.log(msg1 + ' ' + msg2); // "Hello Swift"
+```
+
+</details>
