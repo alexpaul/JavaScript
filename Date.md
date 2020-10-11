@@ -29,3 +29,7 @@ console.log(commencementDate); // 2020-10-12T11:36:04.975Z
 ```javascript 
 console.log(`Commencement in on a ${commencementDate.getDay()}`); // 1 is Monday
 ```
+
+## Resouces 
+
+1. [MDN - Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
