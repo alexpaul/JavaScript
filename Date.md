@@ -53,7 +53,7 @@ Output :
 <details> 
   <summary>Solution</summary> 
 
-```javascipt 
+```javascript 
 function getDaysInMonth(month, year) {
   let date = new Date(year, month, 0); // last day is represented by 0
   return date.getDate(); 
