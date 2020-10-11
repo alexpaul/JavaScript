@@ -22,7 +22,7 @@ console.log(`string comparisons: ${strComparions}`); // true
 ```javascript 
 const status = 200; 
 if (status === 200) {
-  console.log('OK!');
+  console.log('OK!'); // OK! 
 } else if (status === 400) {
   console.log('Error!'); 
 } else {
@@ -34,6 +34,6 @@ if (status === 200) {
 
 
 ```javascript 
-const message = (status === 200) ? 'Ok' : 'Error'; 
-console.log(`ternary operator ${message}`);
+const message = (status === 200) ? 'Ok!' : 'Error!'; 
+console.log(`using ternary operator: ${message}`); // using ternary operator: Ok!
 ```
