@@ -127,3 +127,37 @@ console.log(`You will be a ${jobTitle} in ${geographicLocation.state}, and marri
 
 </details>
 
+## Challenge 5 
+
+The Temperature Converter
+
+It's hot out! Let's make a converter based on the steps here.
+
+Store a celsius temperature into a variable.
+Convert it to fahrenheit and output "NN°C is NN°F".
+Now store a fahrenheit temperature into a variable.
+Convert it to celsius and output "NN°F is NN°C."
+
+<details> 
+  <summary>Solution</summary> 
+
+```javascript 
+function celciusToFahrenheit(temp) {
+  return (((temp / 5) * 9)  + 32).toFixed(2);
+}
+
+function fahrenheitToCelsius(temp) {
+  return ((temp - 32) * 5 / 9).toFixed(2);
+}
+
+const celsius = 19; 
+console.log(`${celsius}°C is ${celciusToFahrenheit(celsius)}°F`);
+// 19°C is 66.20°F
+
+const fahrenheit = 78;
+console.log(`${fahrenheit}°F is ${fahrenheitToCelsius(fahrenheit)}°C`);
+// 78°F is 25.56°C
+```
+
+</details>
+
