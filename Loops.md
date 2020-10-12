@@ -50,7 +50,7 @@ const raceDistances = ['Sprint', 'Olympic', 'Half-IRONMAN', 'Full IRONMAN'];
 ```
 
 ```javascript 
-for (let distance of raceDistances) {
+for (const distance of raceDistances) {
   console.log(distance); 
 }
 
