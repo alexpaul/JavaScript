@@ -76,6 +76,36 @@ console.log(subtract(1, 1)); // 0
 
 #### Challenge 1 
 
+You know how old your dog is in human years, but what about dog years? Calculate it!
+
+Write a function named calculateDogAge that:
+
+takes 1 argument: your puppy's age.
+calculates your dog's age based on the conversion rate of 1 human year to 7 dog years.
+outputs the result to the screen like so: "Your doggie is NN years old in dog years!"
+Call the function three times with different sets of values.
+Bonus: Add an additional argument to the function that takes the conversion rate of human to dog years.
+
+<details> 
+  <summary>Solution</summary> 
+  
+```javascript 
+function calculateDogAge(puppysAge, conversionRate) {
+  if ((puppysAge < 1) || (conversionRate < 1)) {
+    console.log('Invalid arguments.'); 
+    return; 
+  }
+  const age = puppysAge * conversionRate; 
+  console.log(`Your doggie is ${age} years old in dog years!`);
+}
+
+calculateDogAge(1, 7);  // Your doggie is 7 years old in dog years!
+```
+  
+</details> 
+
+#### Challenge 2
+
 Write a JavaScript function that reverse a number.
 
 _Example x = 32243_  
