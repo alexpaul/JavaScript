@@ -88,8 +88,8 @@ _Expected Output : 34223_
 function reverseNumber(number) {
   const str = number.toString();
   let strReverse = '';
-  for (const index in str) {
-    strReverse = str[index] + strReverse; 
+  for (const char of str) {
+    strReverse = char + strReverse; 
   } 
   return parseInt(strReverse);
 }
