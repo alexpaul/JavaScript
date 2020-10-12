@@ -4,6 +4,21 @@ Beginning JavaSwift.
 
 > MDN: JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. [Read more about JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
+## Table of Contents 
+
+1. [Logging](https://github.com/alexpaul/JavaScript/blob/main/Logging.md)
+1. [Data Types](https://github.com/alexpaul/JavaScript/blob/main/Data-Types.md)
+1. [Variables](https://github.com/alexpaul/JavaScript/blob/main/Variables.md)
+1. [Control Flow](https://github.com/alexpaul/JavaScript/blob/main/Control-Flow.md)
+1. [String](https://github.com/alexpaul/JavaScript/blob/main/String.md)
+1. [Array](https://github.com/alexpaul/JavaScript/blob/main/Array.md)
+1. [Loops](https://github.com/alexpaul/JavaScript/blob/main/Loops.md)
+1. [Math](https://github.com/alexpaul/JavaScript/blob/main/Math.md)
+1. [Date](https://github.com/alexpaul/JavaScript/blob/main/Date.md)
+1. [Functions](https://github.com/alexpaul/JavaScript/blob/main/Functions.md)
+1. [Error Handling](https://github.com/alexpaul/JavaScript/blob/main/Error-Handling.md)
+1. [Tools](https://github.com/alexpaul/JavaScript/blob/main/Tools.md)
+
 ## Glossary
 
 * DOM 
