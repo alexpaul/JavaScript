@@ -72,3 +72,6 @@ const subtract = (a, b) => {
 console.log(subtract(1, 1)); // 0 
 ```
 
+## Resources 
+
+1. [MDN - Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
