@@ -72,6 +72,33 @@ const subtract = (a, b) => {
 console.log(subtract(1, 1)); // 0 
 ```
 
+## Challenges 
+
+#### Challenge 1 
+
+Write a JavaScript function that reverse a number.
+
+Example x = 32243;
+Expected Output : 34223
+
+<details> 
+  <summary>Solution</summary> 
+  
+```javascript 
+function reverseNumber(number) {
+  const str = number.toString();
+  let strReverse = '';
+  for (const index in str) {
+    strReverse = str[index] + strReverse; 
+  } 
+  return parseInt(strReverse);
+}
+
+console.log(reverseNumber(32243)); // 34223
+```
+  
+</details> 
+
 ## Resources 
 
 1. [MDN - Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
