@@ -72,6 +72,14 @@ const subtract = (a, b) => {
 console.log(subtract(1, 1)); // 0 
 ```
 
+#### Swift closures as shown below is similar to arrow functions in JavaScript 
+
+```swift 
+let add: (Int, Int) -> Int = { $0 + $1 } // shorthand argument names and implicit return
+
+print(add(4, 5)) // 9
+```
+
 ## Challenges 
 
 #### Challenge 1 
