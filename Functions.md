@@ -1,6 +1,6 @@
 # Functions 
 
-## Basic Named Function
+## 1. Named Function
 
 #### Function definition 
 
@@ -49,3 +49,26 @@ function addNumbers(a, b) {
 const result = addNumbers(10, 5); 
 console.log(result); // 15
 ```
+
+## 2. Arrow Function or Fat Arrow Function 
+
+> Please Note: `this` context in arrow functions inherits from it's parent's scope.
+
+#### Single line and implicit return 
+
+```javascript 
+const add = (a, b) => a + b; 
+console.log(add(4, 5); // 9  
+```
+
+
+#### Multiple line and explicit return 
+
+```javascript 
+const subtract = (a, b) => {
+  const result = a - b; 
+  return result; 
+}
+console.log(subtract(1, 1)); // 0 
+```
+
