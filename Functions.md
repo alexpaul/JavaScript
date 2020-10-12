@@ -78,8 +78,8 @@ console.log(subtract(1, 1)); // 0
 
 Write a JavaScript function that reverse a number.
 
-Example x = 32243;
-Expected Output : 34223
+_Example x = 32243_  
+_Expected Output : 34223_   
 
 <details> 
   <summary>Solution</summary> 
