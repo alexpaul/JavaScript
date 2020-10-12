@@ -10,9 +10,16 @@ const raceDistances = ['Sprint', 'Olympic', 'Half-IRONMAN', 'Full IRONMAN'];
 let index = 0; 
 while (index < raceDistances.length) {
   const distance = raceDistances[index]; 
-  console.log(`Race distance is ${distance}`); 
+  console.log(distance); 
   index++; 
 }
+
+/*
+Sprint
+Olympic
+Half-IRONMAN
+Full IRONMAN
+*/
 ```
 
 
@@ -26,6 +33,13 @@ const raceDistances = ['Sprint', 'Olympic', 'Half-IRONMAN', 'Full IRONMAN'];
 for(let index = 0; index < raceDistances.length; index++) {
   console.log(raceDistances[index]); 
 }
+
+/*
+Sprint
+Olympic
+Half-IRONMAN
+Full IRONMAN
+*/
 ```
 
 
@@ -39,4 +53,11 @@ const raceDistances = ['Sprint', 'Olympic', 'Half-IRONMAN', 'Full IRONMAN'];
 for (let distance of raceDistances) {
   console.log(distance); 
 }
+
+/*
+Sprint
+Olympic
+Half-IRONMAN
+Full IRONMAN
+*/
 ```
