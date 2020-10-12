@@ -58,7 +58,7 @@ console.log(result); // 15
 
 ```javascript 
 const add = (a, b) => a + b; 
-console.log(add(4, 5); // 9  
+console.log(add(4, 5)); // 9  
 ```
 
 
