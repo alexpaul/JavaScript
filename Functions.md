@@ -31,11 +31,12 @@ function p8rint() {}
 #### Function parameters  
 
 ```javascript 
-function greeting(name) {
+function greeting(name) { // name here is the parameter
   console.log(`Hello, ${name}`); 
 }
 
-greeting('Alex'); // "Hello, Alex"
+// 'Alex' here is the argument passed into the function call
+greeting('Alex'); // "Hello, Alex" 
 ```
 
 #### Function return 
