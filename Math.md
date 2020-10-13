@@ -77,3 +77,19 @@ console.log(`Pi is ${pi}`); // Pi is 3.141592653589793
 const number = 81; 
 console.log(`The sqrt of ${number} is ${Math.sqrt(number)}`); // The sqrt of 81 is 9
 ```
+
+#### `floor()`
+
+> MDN: The `Math.floor()` function returns the largest integer less than or equal to a given number.
+
+```javascript 
+const floatMiddleIndex = 3 / 2;
+console.log(floatMiddleIndex); // 1.5
+
+const integerMiddleIndex = Math.floor(3 / 2); 
+console.log(integerMiddleIndex); // 1
+```
+
+## Resources 
+
+1. [MDN - Division](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Division)
