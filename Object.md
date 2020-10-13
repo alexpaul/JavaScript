@@ -103,7 +103,7 @@ Example of running `this` in a `repl.it` environment provides the following outp
 <details> 
   <summary>`this` global output</summary> 
   
-```swift 
+```javascript 
 {
   console: {
     log: [Function: log],
@@ -225,3 +225,13 @@ Example of running `this` in a `repl.it` environment provides the following outp
 ```
 
 </details> 
+
+#### Compare `this` context using `globalThis`
+
+```javascrpt 
+function checkForGlobalThis() {
+  return this; 
+}
+
+console.log(checkForGlobalThis() === globalThis); // true
+```
