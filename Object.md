@@ -228,7 +228,7 @@ Example of running `this` in a `repl.it` environment provides the following outp
 
 #### Compare `this` context using `globalThis`
 
-```javascrpt 
+```javascript
 function checkForGlobalThis() {
   return this; 
 }
