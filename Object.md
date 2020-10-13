@@ -230,8 +230,18 @@ Example of running `this` in a `repl.it` environment provides the following outp
 
 ```javascript
 function checkForGlobalThis() {
-  return this; 
+  return this; // `this` here is bound to the `global` scope
+}
+
+const person = {
+  name: 'Kate', 
+  
+  info: function() {
+    return this; // does refer to the global context but refers to the object instance
+  }
 }
 
 console.log(checkForGlobalThis() === globalThis); // true
+
+console.log(person.info() === globalThis); // false 
 ```
