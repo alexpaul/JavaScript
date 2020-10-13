@@ -90,6 +90,18 @@ const integerMiddleIndex = Math.floor(3 / 2);
 console.log(integerMiddleIndex); // 1
 ```
 
+#### `ceil()`
+
+> MDN: The Math.ceil() function always rounds a number up to the next largest integer. 
+
+```javascript 
+const floatValue = 3 / 2;
+console.log(floatValue); // 1.5
+
+const integerValue = Math.ceil(3 / 2); 
+console.log(integerValue); // 2
+```
+
 ## Resources 
 
 1. [MDN - Math Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
