@@ -93,3 +93,135 @@ console.log(language.update()); // prints language object
 }
 */
 ```
+
+#### Global `this`
+
+The `this` global context in a Node environment and Browser environment varies. 
+
+Example of running `this` in a `repl.it` environment provides the following output 
+
+<details> 
+  <summary>`this` global output</summary> 
+  
+```swift 
+{
+  console: {
+    log: [Function: log],
+    warn: [Function: warn],
+    dir: [Function: dir],
+    time: [Function: time],
+    timeEnd: [Function: timeEnd],
+    timeLog: [Function: timeLog],
+    trace: [Function: trace],
+    assert: [Function: assert],
+    clear: [Function: clear],
+    count: [Function: count],
+    countReset: [Function: countReset],
+    group: [Function: group],
+    groupEnd: [Function: groupEnd],
+    table: [Function: table],
+    debug: [Function: debug],
+    info: [Function: info],
+    dirxml: [Function: dirxml],
+    error: [Function: error],
+    groupCollapsed: [Function: groupCollapsed],
+    Console: [Function: Console],
+    profile: [Function: profile],
+    profileEnd: [Function: profileEnd],
+    timeStamp: [Function: timeStamp],
+    context: [Function: context]
+  },
+  alert: [Function: log],
+  prompt: [Function: prompt],
+  confirm: [Function: confirm],
+  module: Module {
+    id: '.',
+    path: '/home/runner/JavaScript-Playgrounds',
+    exports: {},
+    parent: null,
+    filename: '/home/runner/JavaScript-Playgrounds/index.js',
+    loaded: false,
+    children: [],
+    paths: [
+      '/home/runner/JavaScript-Playgrounds/node_modules',
+      '/home/runner/node_modules',
+      '/home/node_modules',
+      '/node_modules'
+    ]
+  },
+  require: [Function: bound ],
+  __dirname: '/home/runner/JavaScript-Playgrounds',
+  __filename: '/home/runner/JavaScript-Playgrounds/index.js',
+  global: {
+    console: {
+      log: [Function: log],
+      warn: [Function: warn],
+      dir: [Function: dir],
+      time: [Function: time],
+      timeEnd: [Function: timeEnd],
+      timeLog: [Function: timeLog],
+      trace: [Function: trace],
+      assert: [Function: assert],
+      clear: [Function: clear],
+      count: [Function: count],
+      countReset: [Function: countReset],
+      group: [Function: group],
+      groupEnd: [Function: groupEnd],
+      table: [Function: table],
+      debug: [Function: debug],
+      info: [Function: info],
+      dirxml: [Function: dirxml],
+      error: [Function: error],
+      groupCollapsed: [Function: groupCollapsed],
+      Console: [Function: Console],
+      profile: [Function: profile],
+      profileEnd: [Function: profileEnd],
+      timeStamp: [Function: timeStamp],
+      context: [Function: context]
+    },
+    alert: [Function: log],
+    prompt: [Function: prompt],
+    confirm: [Function: confirm],
+    module: Module {
+      id: '.',
+      path: '/home/runner/JavaScript-Playgrounds',
+      exports: {},
+      parent: null,
+      filename: '/home/runner/JavaScript-Playgrounds/index.js',
+      loaded: false,
+      children: [],
+      paths: [Array]
+    },
+    require: [Function: bound ],
+    __dirname: '/home/runner/JavaScript-Playgrounds',
+    __filename: '/home/runner/JavaScript-Playgrounds/index.js',
+    global: [Circular],
+    clearInterval: [Function: clearInterval],
+    clearTimeout: [Function: clearTimeout],
+    setInterval: [Function: setInterval],
+    setTimeout: [Function: setTimeout] {
+      [Symbol(nodejs.util.promisify.custom)]: [Function]
+    },
+    queueMicrotask: [Function: queueMicrotask],
+    clearImmediate: [Function: clearImmediate],
+    setImmediate: [Function: setImmediate] {
+      [Symbol(nodejs.util.promisify.custom)]: [Function]
+    },
+    checkForGlobalThis: [Function: checkForGlobalThis]
+  },
+  clearInterval: [Function: clearInterval],
+  clearTimeout: [Function: clearTimeout],
+  setInterval: [Function: setInterval],
+  setTimeout: [Function: setTimeout] {
+    [Symbol(nodejs.util.promisify.custom)]: [Function]
+  },
+  queueMicrotask: [Function: queueMicrotask],
+  clearImmediate: [Function: clearImmediate],
+  setImmediate: [Function: setImmediate] {
+    [Symbol(nodejs.util.promisify.custom)]: [Function]
+  },
+  checkForGlobalThis: [Function: checkForGlobalThis]
+}
+```
+
+</details> 
