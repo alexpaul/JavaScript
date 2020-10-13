@@ -22,7 +22,6 @@ console.log(typeof books); // object
 console.log(books instanceof Array) // true
 console.log(books); 
 
-// JSON.stringify - JavaScript to JSON 
 let bookJSON = JSON.stringify(book); 
 console.log(typeof bookJSON); // string
 console.log(bookJSON);
