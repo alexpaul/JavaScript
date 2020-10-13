@@ -8,7 +8,7 @@ function binarySearch(arr, target) {
   let high = arr.length; 
   while (low < high) {
     const middleIndex = Math.floor(low + (high - low) / 2); 
-    if (arr[middleIndex] == target) {
+    if (arr[middleIndex] === target) {
       return middleIndex; 
     } else if (arr[middleIndex] > target) { // look left
       high = middleIndex; 
