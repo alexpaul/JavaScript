@@ -92,4 +92,5 @@ console.log(integerMiddleIndex); // 1
 
 ## Resources 
 
+1. [MDN - Math Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 1. [MDN - Division](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Division)
