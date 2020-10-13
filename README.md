@@ -17,7 +17,7 @@ Beginning JavaSwift.
 1. [Date](https://github.com/alexpaul/JavaScript/blob/main/Date.md)
 1. [Functions](https://github.com/alexpaul/JavaScript/blob/main/Functions.md)
 1. [Error Handling](https://github.com/alexpaul/JavaScript/blob/main/Error-Handling.md)
-1. [JSON](https://github.com/alexpaul/JavaScript/blob/main/Tools.md)
+1. [JSON](https://github.com/alexpaul/JavaScript/blob/main/JSON.md)
 1. [Algorithms](https://github.com/alexpaul/JavaScript/blob/main/Algorithms.md)
 1. [Tools](https://github.com/alexpaul/JavaScript/blob/main/Tools.md)
 
