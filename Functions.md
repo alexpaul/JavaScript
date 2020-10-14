@@ -137,6 +137,36 @@ console.log(reverseNumber(32243)); // 34223
   
 </details> 
 
+#### Challenge 3 
+
+Write a function to find the largest value in an array 
+
+_Input: [-3, 5, 1, 89, 3, 0, -78, 1]_  
+_Output: 89_  
+
+<details> 
+  <summary>Solution</summary> 
+  
+```javascript 
+function largestValue(inputArray) {
+  if (inputArray.length === 0) {
+    return -1;
+  }
+  let currentLargest = inputArray[0]
+  for (const element of inputArray) {
+    if (element > currentLargest) {
+      currentLargest = element;
+    }
+  }
+  return currentLargest; 
+}
+
+console.log(largestValue([-3, 5, 1, 89, 3, 0, -78, 1])); // 89
+console.log(largestValue([])); // -1 
+```
+  
+</details> 
+
 ## Resources 
 
 1. [MDN - Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
