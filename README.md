@@ -19,6 +19,7 @@ Beginning JavaSwift.
 1. [Objects](https://github.com/alexpaul/JavaScript/blob/main/Object.md)
 1. [JSON](https://github.com/alexpaul/JavaScript/blob/main/JSON.md)
 1. [Error Handling](https://github.com/alexpaul/JavaScript/blob/main/Error-Handling.md)
+1. [Data Structures](https://github.com/alexpaul/JavaScript/blob/main/Data-Structures.md)
 1. [Algorithms](https://github.com/alexpaul/JavaScript/blob/main/Algorithms.md)
 1. [Tools](https://github.com/alexpaul/JavaScript/blob/main/Tools.md)
 
