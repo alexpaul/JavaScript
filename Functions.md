@@ -114,7 +114,7 @@ calculateDogAge(1, 7);  // Your doggie is 7 years old in dog years!
 
 #### Challenge 2
 
-Write a JavaScript function that reverse a number.
+Write a JavaScript function that reverses a number.
 
 _Example x = 32243_  
 _Expected Output : 34223_   
