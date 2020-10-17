@@ -26,6 +26,8 @@ setTimeout(callback, 5_000); // wait 5 seconds
 
 ## Promises
 
+> MDN documentation: The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+
 Promises works such that when an asynchronous block of code completes it will let the caller know and provide a result. 
 
 ```javascript 
@@ -54,6 +56,8 @@ promiseTimeout(2000)
 
 #### Using `async/await` syntax to work with a `Promise` . 
 
+> MDN documentation: An async function is a function declared with the async keyword. Async functions are instances of the AsyncFunction constructor, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+
 ```javascript 
 async function longRunningOperation() { // can be from a network call
   return 42; // similar to resolve(42) when using .then syntax
@@ -73,3 +77,9 @@ async function run() {
 
 run();
 ```
+
+## Resources 
+
+1. [MDN - Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+1. [MDN - Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+1. [MDN - async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
