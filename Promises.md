@@ -26,7 +26,7 @@ setTimeout(callback, 5_000); // wait 5 seconds
 
 ## Promises
 
-Promises works such that with an asynchronous block of code completes it will let me know and give me the result. 
+Promises works such that when an asynchronous block of code completes it will let the caller know and provide a result. 
 
 ```javascript 
 function promiseTimeout(ms) {
@@ -34,7 +34,11 @@ function promiseTimeout(ms) {
     setTimeout(resolve, ms);  // call the resolve function
   });
 }
+```
 
+#### Using `.then` syntax to work with a `Promise` .
+
+```javascript
 promiseTimeout(2000)
   .then(() => {
     console.log('Done!');
@@ -46,4 +50,26 @@ promiseTimeout(2000)
   }).catch(() => {
     console.log('Error!'); 
   }) 
+```
+
+#### Using `async/await` syntax to work with a `Promise` . 
+
+```javascript 
+async function longRunningOperation() { // can be from a network call
+  return 42; // similar to resolve(42) when using .then syntax
+}
+
+async function run() {
+  // await allows for thread to continue without being blocked 
+  console.log('Start'); 
+  await promiseTimeout(2000); // 2 seconds, "pauses" but main thread is not blocked
+  // await required or you will get unusual behavior or lack of a valid result from the Promise
+
+  const response = await longRunningOperation(); 
+  console.log(response);
+
+  console.log('Stop'); 
+}
+
+run();
 ```
