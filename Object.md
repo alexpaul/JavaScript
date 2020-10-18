@@ -267,3 +267,54 @@ bob grade is 100
 cindy grade is 75
 */
 ```
+
+## Challenges 
+
+#### Challenge 1. 
+
+Write a function called cashRegister that takes a shopping cart object. The object contains item names and prices (itemName: itemPrice). The function should return the total price of the shopping cart.
+
+```javascript
+Example
+// Input
+const cartForParty = {  
+  banana: '1.25',
+  handkerchief: '.99',
+  tShirt: '25.01',
+  apple: '0.60',
+  nalgene: '10.34',
+  proteinShake: '22.36'
+};
+
+// Output
+cashRegister(cartForParty)); // 60.55
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+```javascript 
+function cashRegister(shoppingCart) {
+  let totalPrice = 0; 
+  for (let [itemName, price] of Object.entries(shoppingCart)) {
+    price = parseFloat(price); 
+    totalPrice += price;
+  }
+  return totalPrice; 
+}
+
+const cartForParty = {  
+  banana: '1.25',
+  handkerchief: '.99',
+  tShirt: '25.01',
+  apple: '0.60',
+  nalgene: '10.34',
+  proteinShake: '22.36'
+};
+
+let totalPrice = cashRegister(cartForParty);
+console.log(`The total price of the shopping cart is ${totalPrice}`); 
+// The total price of the shopping cart is 60.55
+```
+  
+</details> 
