@@ -6,7 +6,7 @@
 const dataTypeComparisons = '42' == 42; // data type conversion comparisons
 console.log(dataTypeComparisons); // true
 
-const equaliyComparison = '42' === 42; 
+const equaliyComparison = '42' === 42; // we always want to use === when doing equaliy comparison
 console.log(equaliyComparison); // false
 ```
 
