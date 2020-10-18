@@ -60,7 +60,7 @@ if (statusMessage === 'ERROR') { // false
 }
 ```
 
-## &&
+## Logical operators, `&&, ||`
 
 ```javascript 
 const someStatus = 500; 
