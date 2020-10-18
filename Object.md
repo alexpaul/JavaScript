@@ -248,6 +248,10 @@ console.log(person.info() === globalThis); // false
 
 ## Accessing ALL the `key, value` pairs of an Object using `Object.entries()`
 
+> MDN documentation: The Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs, in the same order as that provided by a for...in loop. (The only important difference is that a for...in loop enumerates properties in the prototype chain as well). 
+
+> The order of the array returned by Object.entries() does not depend on how an object is defined. If there is a need for certain ordering, then the array should be sorted first, like Object.entries(obj).sort((a, b) => b[0].localeCompare(a[0]));.
+
 ```javascript 
 const grades = {
   adam: 85, 
@@ -270,7 +274,7 @@ cindy grade is 75
 
 ## Challenges 
 
-#### Challenge 1. 
+#### Challenge 1
 
 Write a function called `cashRegister` that takes a shopping cart object. The object contains item names and prices (itemName: itemPrice). The function should return the total price of the shopping cart.
 
