@@ -46,7 +46,59 @@ let count = 0
 console.log('Current count is %s', count); 
 ```
 
-## Concatenation 
+## 2. `length` of a String 
+
+```javascript 
+const language = 'JavaScript';
+console.log(`The length of ${language} is ${language.length}`); // The length of JavaScript is 10
+```
+
+## 3. Accessing characters in a String
+
+#### 1. Indexing a String 
+
+```javascript 
+const name = 'Alex';
+const firstChar = name[0]; 
+console.log(firstChar); // A
+```
+
+#### 2. Using `charAt()`
+
+```javascript 
+const name = 'Sarah';
+const char = name.charAt(name.length - 1); 
+console.log(char); // h
+```
+
+## 4. Comparing strings 
+
+```javascript 
+if ('a' < 'b') {
+  console.log('a is less than b'); // a is less than b
+}
+
+if ('z' > 'Z') {
+  console.log('Z is greater than z'); // Z is greater than z
+}
+```
+
+## 5. `valueOf()` to access the value of an Object 
+
+```javascript 
+const stringObject = new String('Bob Marley'); 
+console.log(stringObject); // [String: 'Bob Marley']
+console.log(stringObject.valueOf()); // Bob Marley
+```
+
+## 6. `eval()`
+
+```javascript 
+console.log('10 + 5') // 10 + 5
+console.log(eval('10 + 2')) // 12
+```
+
+## 7. Concatenation 
 
 ```javascript 
 const str1 = 'Learning';
@@ -63,7 +115,21 @@ const value2 = 1;
 console.log(value1 + value2) 
 ```
 
-## Converting String to Number `parseInt()`
+## 8. Escape characters 
+
+```javascript 
+```
+
+## 9. Long literal strings 
+
+```javascript 
+const longLiteralString = "Welcome to JavaScript " + 
+                          "the language " +
+                          "of the web."
+console.log(longLiteralString); 
+```
+
+## 10. Converting String to Number `parseInt()`
 
 #### Example 1 
 
@@ -84,14 +150,14 @@ console.log(parseInt('.123')); // NaN , sees a special character and return NaN 
 console.log(parseInt('1 23')); // 1 , only parses the first number and ignores everything after the space
 ```
 
-## Converting String to Float `parseFloat()`
+## 11. Converting String to Float `parseFloat()`
 
 ```javascript 
 console.log(parseFloat(2.50 + 0.13)); // 2.63
 console.log(parseFloat('five')); // NaN
 ```
 
-## Converting Number to String `toString()`
+## 12. Converting Number to String `toString()`
 
 ```javascript 
 let number = 150; 
@@ -102,7 +168,7 @@ console.log(floatValue.toString()); // '1.50'
 console.log((100).toString()); // '100'
 ```
 
-## Challenges 
+## 13. Challenges 
 
 #### Challenge 1
 
