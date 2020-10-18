@@ -142,6 +142,8 @@ console.log(assignGrade(59)); // F
   
 </details> 
 
+***
+
 #### Challenge 2 
 
 The World Translator
