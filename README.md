@@ -8,7 +8,7 @@ Beginning JavaSwift.
 
 >Hello developer, 
 >
->For the majority of the examples here you can use [repl.it](https://repl.it) to execute the JavaScript statements. 
+>For the majority of the examples here you can use [repl.it](https://repl.it) to execute the JavaScript statements. Approach learning the content chronologically base on the `Table of Contents` and complete the given exercises at the bottom of the modules for practice.
 
 ## Table of Contents 
 
