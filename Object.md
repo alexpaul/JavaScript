@@ -245,3 +245,25 @@ console.log(checkForGlobalThis() === globalThis); // true
 
 console.log(person.info() === globalThis); // false 
 ```
+
+## Accessing ALL the `key, value` pairs of an Object using `Object.entries()`
+
+```javascript 
+const grades = {
+  adam: 85, 
+  rachel: 90, 
+  bob: 100, 
+  cindy: 75
+}; 
+
+for (const [name, grade] of Object.entries(grades)) {
+  console.log(`${name} grade is ${grade}`); 
+}
+
+/*
+adam grade is 85
+rachel grade is 90
+bob grade is 100
+cindy grade is 75
+*/
+```
