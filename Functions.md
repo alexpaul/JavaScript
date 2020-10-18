@@ -112,6 +112,8 @@ calculateDogAge(1, 7);  // Your doggie is 7 years old in dog years!
   
 </details> 
 
+***
+
 #### Challenge 2
 
 Write a JavaScript function that reverses a number.
@@ -136,6 +138,8 @@ console.log(reverseNumber(32243)); // 34223
 ```
   
 </details> 
+
+***
 
 #### Challenge 3 
 
@@ -167,6 +171,7 @@ console.log(largestValue([])); // -1
   
 </details> 
 
+***
 
 #### Challenge 4 
 
@@ -310,6 +315,8 @@ The area for a circle with radius 25 is 1963.5.
 
 ```
 </details> 
+
+***
 
 ## Resources 
 
