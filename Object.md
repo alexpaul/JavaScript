@@ -272,7 +272,7 @@ cindy grade is 75
 
 #### Challenge 1. 
 
-Write a function called cashRegister that takes a shopping cart object. The object contains item names and prices (itemName: itemPrice). The function should return the total price of the shopping cart.
+Write a function called `cashRegister` that takes a shopping cart object. The object contains item names and prices (itemName: itemPrice). The function should return the total price of the shopping cart.
 
 ```javascript
 Example
