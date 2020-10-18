@@ -252,6 +252,8 @@ console.log(person.info() === globalThis); // false
 
 > The order of the array returned by Object.entries() does not depend on how an object is defined. If there is a need for certain ordering, then the array should be sorted first, like Object.entries(obj).sort((a, b) => b[0].localeCompare(a[0]));.
 
+[more on `Object.entries()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
 ```javascript 
 const grades = {
   adam: 85, 
@@ -322,3 +324,7 @@ console.log(`The total price of the shopping cart is ${totalPrice}`);
 ```
   
 </details> 
+
+## Resources 
+
+1. [MDN - Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
