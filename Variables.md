@@ -52,6 +52,8 @@ console.log(`The sum of ${x} + ${y} is ${x + y}`);
 
 </details> 
 
+***
+
 #### Challenge 2
 
 On one single line, declare three variables with the following names and values:
@@ -70,6 +72,8 @@ let firstName = 'John', lastName = 'Doe', age = 35;
 ```
 
 </details> 
+
+***
 
 #### Challenge 3 
 
@@ -97,6 +101,8 @@ console.log(`I will be either ${earlierMonth} or ${age} in ${currentYear}`);
 // I will be either 20 or 21 in 1999 🥳 🍻
 ```
 </details> 
+
+***
 
 #### Challenge 4 
 
@@ -127,7 +133,9 @@ console.log(`You will be a ${jobTitle} in ${geographicLocation.state}, and marri
 
 </details>
 
-## Challenge 5 
+***
+
+#### Challenge 5 
 
 The Temperature Converter
 
@@ -160,4 +168,6 @@ console.log(`${fahrenheit}°F is ${fahrenheitToCelsius(fahrenheit)}°C`);
 ```
 
 </details>
+
+***
 
