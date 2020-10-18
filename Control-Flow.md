@@ -94,3 +94,51 @@ switch (status) {
 }
 ```
 
+## Challenges 
+
+#### Challenge 1 
+
+The Grade Assigner
+
+Write a function named assignGrade that:
+  * takes 1 argument, a number score.
+  * returns a grade for the score, either "A", "B", "C", "D", or "F".
+
+Call that function for a few different scores and log the result to make sure it works.
+
+<details>
+  <summary>Solution</summary> 
+  
+```javascript 
+function assignGrade(score) {
+  if (typeof score !== 'number') {
+    console.log('Score is an invalid number.'); 
+    return '';
+  }
+  if (score < 0) {
+    console.log('Score should be non-negative.'); 
+    return ''; 
+  }
+  switch (true) {
+    case (score >= 90):
+      return 'A'; 
+    case (score >= 80 && score <= 89): 
+      return 'B'; 
+    case (score >= 70 && score <= 79): 
+      return 'C'; 
+    case (score >= 60 && score <= 69): 
+      return 'D'; 
+    default: 
+      return 'F'; 
+  }
+}
+
+console.log(assignGrade(90)); // A 
+console.log(assignGrade(89)); // B 
+console.log(assignGrade(79)); // C
+console.log(assignGrade(69)); // D
+console.log(assignGrade(59)); // F
+```
+  
+</details> 
+
