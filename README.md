@@ -40,6 +40,10 @@ Beginning JavaSwift.
 * JIT
 * VS Code Extensions
 
+## Books
+
+1. [Eloquent JavaScript](https://eloquentjavascript.net/)
+
 ## Resources 
 
 1. [MDN - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
