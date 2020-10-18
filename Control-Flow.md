@@ -142,3 +142,48 @@ console.log(assignGrade(59)); // F
   
 </details> 
 
+#### Challenge 2 
+
+The World Translator
+
+Write a function named helloWorld that:
+  * takes 1 argument, a language code (e.g. "es", "de", "en")
+  * returns "Hello, World" for the given language, for atleast 3 languages. It should default to returning English.
+
+Call that function for each of the supported languages and log the result to make sure it works.
+
+<details> 
+  <summary>Solution</summary> 
+  
+```javascript 
+function helloWorld(languageCode) {
+  if (typeof languageCode !== 'string') {
+    console.log('Not a valid string code.'); 
+    return;
+  }
+  const defaultTranslation = 'Hello World';
+  languageCode = languageCode.toLowerCase(); 
+  switch (languageCode) {
+    case 'en':
+      return defaultTranslation;
+    case 'de': 
+      return 'Hallo Welt'; 
+    case 'se': 
+      return 'Hej världen'; 
+    case 'fr': 
+      return 'Bonjour le monde'; 
+    case 'es':
+      return 'Hola Mundo.'; 
+    default: 
+      return defaultTranslation;
+  }
+}
+
+console.log(helloWorld('fr')); // Bonjour le monde
+console.log(helloWorld('se')); // Hej världen
+console.log(helloWorld('ES')); // Hola Mundo 
+console.log(helloWorld('alex')); // Hello World
+```
+  
+</details> 
+
