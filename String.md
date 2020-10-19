@@ -267,6 +267,20 @@ currentLanguage = currentLanguage.replace('Swift', 'JavaScript');
 console.log(currentLanguage); // I am currently learning JavaScript.
 ```
 
+## 18. `slice()`
+
+> MDN documentation: The slice() method extracts a section of a string and returns it as a new string, without modifying the original string.
+
+```javascript
+const str = 'JavaScript'; 
+
+slicedStr = str.slice(0, 4); 
+console.log(slicedStr); // Java
+
+let slicedStr = str.slice(-6); 
+console.log(slicedStr); // Script
+```
+
 ## 16. Challenges 
 
 #### Challenge 1
@@ -419,5 +433,10 @@ console.log(countChar("kakkerlak", "k")); // 4
 </details> 
 
 *** 
+
+## Resources 
+
+1. [MDN - String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+1. [StackOverflow - What is the difference between String.slice and String.substring?](https://stackoverflow.com/questions/2243824/what-is-the-difference-between-string-slice-and-string-substring)
 
 
