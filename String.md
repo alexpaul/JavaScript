@@ -121,7 +121,24 @@ console.log(value1 + value2)
 
 ## 8. Escape characters 
 
+Some escape characters `\', \" and \n` . See documentation for a list of more escape characters.
+
 ```javascript 
+// \'
+const escapeSingleQuote = 'Alex\'s Book'; 
+console.log(escapeSingleQuote); // Alex's Book
+
+// \"
+const escapeDoubleQuote = 'Swift\"s latest version is 5.3';
+console.log(escapeDoubleQuote); // Swift"s latest version is 5.3
+
+// \n
+const newLine = 'Today is Sunday.\nReturned from a weekend trip.';
+console.log(newLine);
+/*
+Today is Sunday.
+Returned from a weekend trip.
+*/
 ```
 
 ## 9. Long literal strings 
