@@ -268,3 +268,47 @@ console.log(msg1 + ' ' + msg2); // "Hello Swift"
 </details>
 
 ***
+
+#### Challenge 3 
+
+Create a function called verbing. It should take a single argument, a string.
+If its length is at least 3, it should add 'ing' to its end, unless it already ends in 'ing', in which case it should add 'ly' instead. 
+If the string length is less than 3, it should leave it unchanged. For example:
+
+```javascript
+verbing('swim'): 'swimming'
+verbing('swimming'): 'swimmingly'
+verbing('go'): 'go'
+```
+
+<details> 
+  <summary>Solution</summary> 
+
+```javascript 
+function verbing(inputString) {
+  if (typeof inputString !== 'string') {
+    console.log('Not a valid string.');
+    return; 
+  }
+  if (inputString.length >= 3) {
+    const lastCharIndex = inputString.length;
+    const suffix = inputString.substring(lastCharIndex - 3, lastCharIndex);
+    if (suffix === 'ing') {
+      inputString += 'ly'
+    } else {
+      inputString += 'ing'; 
+    }
+  }
+  return inputString; 
+}
+
+console.log(verbing('swim')); // swiming
+console.log(verbing('swimming')); // swimmingly
+console.log(verbing('go')); // go
+```
+
+</details>
+
+***
+
+
