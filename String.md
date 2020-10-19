@@ -189,7 +189,42 @@ console.log(floatValue.toString()); // '1.50'
 console.log((100).toString()); // '100'
 ```
 
-## 13. Challenges 
+## 13. `split()`
+
+`split` is used to separate a given string by a given character and form and array. 
+
+```javascript 
+const str = 'Every developer should learn JavaScript.'; 
+
+const spaceSeparated = str.split(' ');
+console.log(spaceSeparated); // [ 'Every', 'developer', 'should', 'learn', 'JavaScript.' ]
+
+const noCharSeparation = str.split(''); 
+console.log(noCharSeparation);
+/*
+[
+  'E', 'v', 'e', 'r', 'y', ' ', 'd',
+  'e', 'v', 'e', 'l', 'o', 'p', 'e',
+  'r', ' ', 's', 'h', 'o', 'u', 'l',
+  'd', ' ', 'l', 'e', 'a', 'r', 'n',
+  ' ', 'J', 'a', 'v', 'a', 'S', 'c',
+  'r', 'i', 'p', 't', '.'
+]
+*/
+```
+
+## 14. `indexOf` 
+
+`indexOf` is used to search the first occurrence of a substring. 
+
+```javascript 
+const str = 'Prior to Swift, iOS developers used Objective-C to write apps.'; 
+const searchWord = 'Objective-C';
+const index = str.indexOf(searchWord); 
+console.log(`${searchWord} was found at index ${index}`); // Objective-C was found at index 36
+```
+
+## 15. Challenges 
 
 #### Challenge 1
 
