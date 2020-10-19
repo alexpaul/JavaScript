@@ -224,7 +224,18 @@ const index = str.indexOf(searchWord);
 console.log(`${searchWord} was found at index ${index}`); // Objective-C was found at index 36
 ```
 
-## 15. Challenges 
+## 15. `includes()`
+
+`includes()` returns a boolean value indicating the presence of a substring in a given string. 
+
+```javascript 
+const str = 'Thanksgiving is one of the biggest holidays of the year';
+const searchWord = 'Thanksgiving'; 
+console.log(`\`${searchWord}\` ${str.includes(searchWord) ? `is` : `is not`} in the sentence.`);
+// `Thanksgiving` is in the sentence. 
+```
+
+## 16. Challenges 
 
 #### Challenge 1
 
