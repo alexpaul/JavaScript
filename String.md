@@ -225,7 +225,7 @@ console.log(noCharSeparation);
 */
 ```
 
-## 14. `indexOf` 
+## 14. `indexOf()` 
 
 `indexOf` is used to search the first occurrence of a substring. 
 
@@ -247,7 +247,7 @@ console.log(`\`${searchWord}\` ${str.includes(searchWord) ? `is` : `is not`} in 
 // `Thanksgiving` is in the sentence. 
 ```
 
-## 16. `substring`
+## 16. `substring()`
 
 Creates a `substring` from given indices.
 
@@ -257,7 +257,7 @@ const substring = language.substring(0, 4);
 console.log(substring); // Java 
 ```
 
-## 17. `replace`
+## 17. `replace()`
 
 Replace the occurrence of a substring with another string. 
 
