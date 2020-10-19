@@ -104,6 +104,9 @@ console.log(eval('10 + 2')) // 12
 
 ## 7. Concatenation 
 
+
+#### Using `+`
+
 ```javascript 
 const str1 = 'Learning';
 const str2 = 'JavaScript';
@@ -117,6 +120,15 @@ const value1 = '1';
 const value2 = 1; 
 // answer is 11 here as JavaScript will treat the evaluation as concatenation of two String not adding numbers e.g 1 + 1 is 2. 
 console.log(value1 + value2) 
+```
+
+#### Using `concat()`
+
+```javascript 
+const firstName = 'John'; 
+const lastName = 'Appleseed'; 
+const formattedLastName = ` ${lastName}`
+console.log(`The person\'s full name is ${firstName.concat(formattedLastName)}`); // The person's full name is John Appleseed
 ```
 
 ## 8. Escape characters 
@@ -233,6 +245,26 @@ const str = 'Thanksgiving is one of the biggest holidays of the year';
 const searchWord = 'Thanksgiving'; 
 console.log(`\`${searchWord}\` ${str.includes(searchWord) ? `is` : `is not`} in the sentence.`);
 // `Thanksgiving` is in the sentence. 
+```
+
+## 16. `substring`
+
+Creates a `substring` from given indices.
+
+```javascript 
+const language = 'JavaScript';
+const substring = language.substring(0, 4); 
+console.log(substring); // Java 
+```
+
+## 17. `replace`
+
+Replace the occurrence of a substring with another string. 
+
+```javascript 
+let currentLanguage = 'I am currently learning Swift.'; 
+currentLanguage = currentLanguage.replace('Swift', 'JavaScript');
+console.log(currentLanguage); // I am currently learning JavaScript.
 ```
 
 ## 16. Challenges 
