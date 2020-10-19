@@ -16,6 +16,15 @@ const singleQuoteStr = 'JavaScript';
 
 #### 3. Template literals 
 
+#### Substitutions 
+
+```javascript 
+let count = 0 
+console.log('Current count is %s', count); 
+```
+
+Template literals as opposed to substitions above are a better approach to using placeholders in a string.
+
 Template literals are backtick embedded strings with the use of `${variableName}` as a placeholder.
 
 ```javascript 
@@ -37,13 +46,6 @@ console.log(`${greeting} ${today}`);
 ```javascript 
 const stringObjectInstance = new String('String Object instance.'); 
 console.log(stringObjectInstance); // [String: 'String Object instance.']
-```
-
-## Substitutions 
-
-```javascript 
-let count = 0 
-console.log('Current count is %s', count); 
 ```
 
 ## 2. `length` of a String 
