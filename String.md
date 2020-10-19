@@ -322,6 +322,9 @@ mixUp('dog', 'dinner'): 'dig donner'
 
 Look up the JavaScript string reference to find methods which may be useful!
 
+<details>
+  <summary>Solution</summary> 
+  
 ```javascript 
 function mixUp(str1, str2) {
   const str1Prefix = str1.substring(0, 2);
@@ -336,4 +339,6 @@ function mixUp(str1, str2) {
 console.log(mixUp('mix', 'pod')); // pox mid
 console.log(mixUp('dog', 'dinner')); // dig donner
 ```
+  
+</details> 
 
