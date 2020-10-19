@@ -23,6 +23,8 @@ let count = 0
 console.log('Current count is %s', count); 
 ```
 
+#### Template literals
+
 Template literals as opposed to substitions above are a better approach to using placeholders in a string.
 
 Template literals are backtick embedded strings with the use of `${variableName}` as a placeholder.
