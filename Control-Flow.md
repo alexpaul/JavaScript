@@ -96,7 +96,32 @@ switch (status) {
 
 ## Challenges 
 
-#### Challenge 1 
+#### Challenge 1
+
+Write a JavaScript conditional statement to find the sign of product of three numbers.
+Display the specified sign.
+
+_Sample numbers : 3, -7, 2_  
+_Output : The sign is -_  
+
+<details>
+  <summary>Solution</summary>
+ 
+```javascript
+const num1 = 1, num2 = -8, num3 = 4; 
+const product = num1 * num2 * num3; 
+if (product < 0) {
+  console.log('The sign is -')
+} else {
+  console.log('The sign is +')
+}
+```
+ 
+</details>
+
+***
+
+#### Challenge 2 
 
 The Grade Assigner
 
@@ -144,7 +169,7 @@ console.log(assignGrade(59)); // F
 
 ***
 
-#### Challenge 2 
+#### Challenge 3
 
 The World Translator
 
