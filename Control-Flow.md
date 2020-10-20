@@ -123,6 +123,46 @@ if (product < 0) {
 
 #### Challenge 2 
 
+Prompt the user for a number that is greater than 100 but less than 2000 and store this as a variable named user.
+
+Write an if statement that checks to see if user is greater than 100 and less than 2000.
+
+If it is then it should assign message1 to a variable named result. If it is not then it should assign message2 instead.
+
+```javascript
+const message1 = 'You are amazingly correct!';
+const message2 = 'Awww, it looks like that number is not correct. Try again!';
+```
+
+<details>
+  <summary>Solution</summary> 
+  
+```javascript 
+const message1 = 'You are amazingly correct!';
+const message2 = 'Awww, it looks like that number is not correct. Try again!';
+ 
+const user = prompt('Please enter a number that is greater than 100 and less than 2000.'); 
+
+const userNumber = parseInt(user);
+
+let result = '';
+
+if (userNumber > 100 && userNumber < 2000) {
+  result = message1; 
+} else {
+  result = message2; 
+}
+
+console.log(result);
+```
+  
+</details> 
+
+***
+
+
+#### Challenge 3
+
 The Grade Assigner
 
 Write a function named assignGrade that:
@@ -169,7 +209,7 @@ console.log(assignGrade(59)); // F
 
 ***
 
-#### Challenge 3
+#### Challenge 4
 
 The World Translator
 
