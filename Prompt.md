@@ -1,6 +1,6 @@
 # Prompt 
 
-Getting input from the user can be done using `prompt()`
+Reading in input from the user can be done using `prompt()` .
 
 ```javascript 
 const iOSMessage = 'Looks like you develop for Apple devices.'; 
