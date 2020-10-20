@@ -14,3 +14,5 @@ if (input === 1) {
   console.log(webMessage); 
 }
 ```
+
+![prompt console](https://user-images.githubusercontent.com/1819208/96650431-e6521980-1300-11eb-937d-fa63891e3bbf.png)
