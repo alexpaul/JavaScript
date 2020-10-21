@@ -128,6 +128,53 @@ console.log(sum(range(1, 10))); // 55
 
 ***
 
+#### Challenge 2 
+
+Arrays have a reverse method that changes the array by inverting the order in which its elements appear. For this exercise, write two functions, reverseArray and reverseArrayInPlace. The first, reverseArray, takes an array as argument and produces a new array that has the same elements in the inverse order. The second, reverseArrayInPlace, does what the reverse method does: it modifies the array given as argument by reversing its elements. Neither may use the standard reverse method.
+
+Thinking back to the notes about side effects and pure functions in the previous chapter, which variant do you expect to be useful in more situations? Which one runs faster?
+
+```javascript 
+// Your code here.
+
+console.log(reverseArray(["A", "B", "C"]));
+// → ["C", "B", "A"];
+let arrayValue = [1, 2, 3, 4, 5];
+reverseArrayInPlace(arrayValue);
+console.log(arrayValue);
+// → [5, 4, 3, 2, 1]
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+```javascript 
+function reverseArray(inputArr) {
+  let outputArr = []; 
+  for (const index in inputArr) {
+    outputArr.unshift(inputArr[index]);
+  }
+  return outputArr; 
+}
+console.log(reverseArray(["A", "B", "C"])); // [ 'C', 'B', 'A' ]
+
+
+function reverseArrayInPlace(inputArr) {
+  for (let index = 0; index < inputArr.length / 2; index++) {
+    const temp = inputArr[index]; 
+    inputArr[index] = inputArr[inputArr.length - 1 - index]; 
+    inputArr[inputArr.length - 1 - index] = temp; 
+  }
+}
+let arrayValue = [1, 2, 3, 4, 5];
+reverseArrayInPlace(arrayValue);
+console.log(arrayValue); // [ 5, 4, 3, 2, 1 ]
+```
+
+</details> 
+
+***
+
 ## Resources 
 
 1. [MDN - Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
