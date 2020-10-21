@@ -23,7 +23,7 @@ Full IRONMAN
 ```
 
 
-## `for` loop
+## C-style `for` loop
 
 ```javascript 
 const raceDistances = ['Sprint', 'Olympic', 'Half-IRONMAN', 'Full IRONMAN']; 
@@ -45,6 +45,8 @@ Full IRONMAN
 
 ## `for...of` loop
 
+This for loop gives you access to each element in the collection as you're iterating. 
+
 ```javascript 
 const raceDistances = ['Sprint', 'Olympic', 'Half-IRONMAN', 'Full IRONMAN']; 
 ```
@@ -60,4 +62,15 @@ Olympic
 Half-IRONMAN
 Full IRONMAN
 */
+```
+
+## `for...in` loop 
+
+This for loop gives you access to the current index as you're looping through a collection. 
+
+```javascript 
+const arr = ['Bob', 'Sally', 'Tim']; 
+for (const index in arr) {
+  console.log(index); // 0, 1, 2
+}
 ```
