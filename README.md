@@ -43,6 +43,7 @@ Beginning JavaSwift.
 ## Books
 
 1. [Eloquent JavaScript](https://eloquentjavascript.net/)
+1. [Mostly Adequate Guide to Functional Prograamming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/content/)
 
 ## Resources 
 
