@@ -2,6 +2,9 @@
 
 Objects have properties and methods associated with them. 
 
+
+An example of an array of objects.
+
 ```javascript
 const technologyStacks = [
   { 
