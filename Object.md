@@ -406,7 +406,7 @@ console.log(`The total price of the shopping cart is ${totalPrice}`);
 
 ***
 
-#### Challenge 2 
+#### Challenge 3
 
 Write a class `Vec` that represents a vector in two-dimensional space.
 
