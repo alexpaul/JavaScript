@@ -357,6 +357,46 @@ Sugar
 
 #### Challenge 2
 
+Write a JavaScript program to list the properties of a JavaScript object.
+
+Sample object:
+
+```javascript
+const student = {
+  name : "David Rayy",
+  sclass : "VI",
+  rollno : 12 
+};
+
+_Sample Output: [ 'name', 'sclass', 'rollno' ]_ 
+
+
+const student = {
+  name : "David Rayy",
+  sclass : "VI",
+  rollno : 12 
+};
+
+console.log(Object.keys(student));
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+```swift 
+const student = {
+  name : "David Rayy",
+  sclass : "VI",
+  rollno : 12 
+};
+
+console.log(Object.keys(student)); // [ 'name', 'sclass', 'rollno' ]
+```
+  
+</details> 
+
+#### Challenge 3
+
 Write a function called `cashRegister` that takes a shopping cart object. The object contains item names and prices (itemName: itemPrice). The function should return the total price of the shopping cart.
 
 ```javascript
@@ -406,7 +446,7 @@ console.log(`The total price of the shopping cart is ${totalPrice}`);
 
 ***
 
-#### Challenge 3
+#### Challenge 4
 
 Write a class `Vec` that represents a vector in two-dimensional space.
 
