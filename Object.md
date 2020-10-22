@@ -426,7 +426,43 @@ george.describe(); // George, 29 years old.
 
 ***
 
-#### Challenge 4
+#### Challenge 4 
+
+The Reading List
+
+Keep track of which books you read and which books you want to read!
+
+* Create an array of objects, where each object describes a book and has properties for the title (a string), author (a string), and alreadyRead (a boolean indicating if you read it yet).
+* Iterate through the array of books. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
+* Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
+
+<details>
+  <summary>Solution</summary>
+  
+```javascript
+const readingList = [
+ { title: 'Good to Great', author: 'Jim Collins', alreadyRead: false }, 
+ { title: 'Unbroken', author: 'Laura Hillenbrand', alreadyRead: true },
+ { title: 'Next', author: 'Michael Crichton', alreadyRead: true }
+]
+
+for (const book of readingList) {
+  const message = (book.alreadyRead) ? 'You already read' : 'You still need to read'; 
+  console.log(`${message} \"${book.title}\" by ${book.author}.`); 
+}
+
+/*
+You still need to read "Good to Great" by Jim Collins.
+You already read "Unbroken" by Laura Hillenbrand.
+You already read "Next" by Michael Crichton.
+*/
+```
+
+</details> 
+
+***
+
+#### Challenge 5
 
 Write a function called `cashRegister` that takes a shopping cart object. The object contains item names and prices (itemName: itemPrice). The function should return the total price of the shopping cart.
 
@@ -477,7 +513,7 @@ console.log(`The total price of the shopping cart is ${totalPrice}`);
 
 ***
 
-#### Challenge 5
+#### Challenge 6
 
 Write a class `Vec` that represents a vector in two-dimensional space.
 
