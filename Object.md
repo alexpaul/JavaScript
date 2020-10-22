@@ -300,9 +300,9 @@ console.log(heather); // { name: 'Alex' }
 
 #### Challenge 1
 
-The Recipe Card
+The Recipe Card   
 
-Never forget another recipe!
+Never forget another recipe!   
 
 * Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings).
 
