@@ -19,7 +19,7 @@ const technologyStacks = [
     userInterface: ['React, CSS, HTML'], 
     codingPlatform: ['Visual Studio Code', 'WebStorm'], 
     languages: ['JavaScript', 'TypeScript'], 
-    backend: ['Express', 'Node', 'Express'] 
+    backend: ['Express', 'Node', 'PostgresSQL'] 
   }
 ]
 ```
