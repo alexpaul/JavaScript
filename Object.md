@@ -395,7 +395,38 @@ console.log(Object.keys(student)); // [ 'name', 'sclass', 'rollno' ]
   
 </details> 
 
-#### Challenge 3
+***
+
+#### Challenge 3 
+
+Create a class called `Person` which accepts the name of a person as a string, and his/her age as a number.
+
+The Person class should have a method called describe which returns a string with the following syntax: "name, age years old". So for example, if John is 19 years old then the function describe of his object will return "John, 19 years old".
+
+<details>
+  <summary>Solution</summary>
+
+```javascript
+class Person {
+  constructor(name, age) {
+    this.name = name; 
+    this.age = age;
+  }
+
+  describe() {
+    return `${this.name}, ${this.age} years old.`
+  }
+}
+
+const george = new Person('George', 29);
+george.describe(); // George, 29 years old.
+```
+
+</details> 
+
+***
+
+#### Challenge 4
 
 Write a function called `cashRegister` that takes a shopping cart object. The object contains item names and prices (itemName: itemPrice). The function should return the total price of the shopping cart.
 
@@ -446,7 +477,7 @@ console.log(`The total price of the shopping cart is ${totalPrice}`);
 
 ***
 
-#### Challenge 4
+#### Challenge 5
 
 Write a class `Vec` that represents a vector in two-dimensional space.
 
