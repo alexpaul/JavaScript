@@ -2,7 +2,7 @@
 
 Objects have properties and methods associated with them. 
 
-## Creating objects using object literal 
+## 1. Creating objects using object literal 
 
 ```javascript 
 const fellow = { 
@@ -21,7 +21,7 @@ console.log(fellow.stack); // iOS
 fellow.info(); // Hi my name is Brian.
 ```
 
-## Creating objects using constructors 
+## 2. Creating objects using constructors 
 
 ```javascript 
 const book = new Object(); 
@@ -44,7 +44,7 @@ book.checkIn();
 book.isAvailable // true
 ```
 
-## Accessing object properties 
+## 3. Accessing object properties 
 
 #### Dot Notation 
 
@@ -59,7 +59,7 @@ const value = book['title'];
 console.log(value); 
 ```
 
-## Accessing methods 
+## 4. Accessing methods 
 
 ```javascript 
 book.checkIn // [Function: checkIn]
@@ -69,7 +69,7 @@ book.checkIn();
 book['checkin'];
 ```
 
-## The `this` keyword (context)
+## 5. The `this` keyword (context)
 
 ```javascript 
 const language = {
@@ -246,7 +246,7 @@ console.log(checkForGlobalThis() === globalThis); // true
 console.log(person.info() === globalThis); // false 
 ```
 
-## Accessing ALL the `key, value` pairs of an Object using `Object.entries()`
+## 6. Accessing ALL the `key, value` pairs of an Object using `Object.entries()`
 
 > MDN documentation: The Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs, in the same order as that provided by a for...in loop. (The only important difference is that a for...in loop enumerates properties in the prototype chain as well). 
 
@@ -274,7 +274,7 @@ cindy grade is 75
 */
 ```
 
-## Pass-by-reference and Pass-by-value 
+## 7. Pass-by-reference and Pass-by-value 
 
 ```javascript 
 const nancy = {
@@ -296,7 +296,7 @@ console.log(nancy); // { name: 'Nancy' }
 console.log(heather); // { name: 'Alex' }
 ```
 
-## Challenges 
+## 8. Challenges 
 
 #### Challenge 1
 
@@ -406,7 +406,7 @@ console.log(new Vec(3, 4).length); // 5
 ***
 
 
-## Resources 
+## 9. Resources 
 
 1. [MDN - Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 1. [Stackoverflow - Is JavaScript a pass-by-reference or pass-by-value language?](https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language)
