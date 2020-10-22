@@ -1,5 +1,7 @@
 # Logging 
 
+Printing to the JavaScript console.
+
 ```javascript
 console.log('Welcome to JavaScript'); // "Welcome to JavaScript"
 ```
