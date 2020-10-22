@@ -274,6 +274,28 @@ cindy grade is 75
 */
 ```
 
+## Pass-by-reference and Pass-by-value 
+
+```javascript 
+const nancy = {
+  name: 'Nancy'
+}
+
+const heather = {
+  name: 'Heather'
+}
+
+function update(fellow1, fellow2) {
+  fellow1 = { name: 'Tony' }; // changing the object itself doesn't change the insstance, pass-by-value
+  fellow2.name = "Alex"; // changing the properties changes the insstance properties, pass-by-reference 
+}
+
+update(nancy, heather);
+
+console.log(nancy); // { name: 'Nancy' }
+console.log(heather); // { name: 'Alex' }
+```
+
 ## Challenges 
 
 #### Challenge 1
@@ -387,3 +409,4 @@ console.log(new Vec(3, 4).length); // 5
 ## Resources 
 
 1. [MDN - Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+1. [Stackoverflow - Is JavaScript a pass-by-reference or pass-by-value language?](https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language)
