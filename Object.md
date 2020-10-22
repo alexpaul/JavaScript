@@ -300,6 +300,63 @@ console.log(heather); // { name: 'Alex' }
 
 #### Challenge 1
 
+The Recipe Card
+
+Never forget another recipe!
+
+* Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings).
+
+* On separate lines (one console.log statement for each), log the recipe information so it looks like:
+  * Mole
+  * Serves: 2
+  * Ingredients:
+  * cinnamon
+  * cumin
+  * cocoa
+
+<details> 
+  <summary>Solution</summary> 
+  
+```javascript 
+const recipe = {
+  title: 'Strawberry Cake',
+  servings: 8, 
+  ingredients: ['Flour', 'Butter', 'Strawberries', 'Sugar']
+}
+
+for (const [key, value] of Object.entries(recipe)) {
+  if (key === 'title') {
+    console.log(value); 
+  }
+  if (key === 'servings') {
+    console.log(`Servings: ${value}`);
+  }
+  if (key === 'ingredients') {
+    console.log('Ingredients:')
+    for (const ingredient of value) {
+      console.log(ingredient); 
+    }
+  }
+}
+
+/*
+Welcome to JavaSwift!
+Strawberry Cake
+Servings: 8
+Ingredients:
+Flour
+Butter
+Strawberries
+Sugar
+*/
+```
+  
+</details> 
+
+***
+
+#### Challenge 2
+
 Write a function called `cashRegister` that takes a shopping cart object. The object contains item names and prices (itemName: itemPrice). The function should return the total price of the shopping cart.
 
 ```javascript
