@@ -2,6 +2,25 @@
 
 Objects have properties and methods associated with them. 
 
+```javascript
+const technologyStacks = [
+  { 
+    role: 'iOS Developer', 
+    userInterface: ['UIKit', 'SwiftUI'],
+    codingPlatform: ['Xcode', 'AppCode'], 
+    languages: ['Swift', 'Objective-C'], 
+    backend: ['Firebase', 'Realm'] 
+  },
+  { 
+    role: 'Full-Stack Web Developer',
+    userInterface: ['React, CSS, HTML'], 
+    codingPlatform: ['Visual Studio Code', 'WebStorm'], 
+    languages: ['JavaScript', 'TypeScript'], 
+    backend: ['Express', 'Node', 'Express'] 
+  }
+]
+```
+
 ## 1. Creating objects using object literal 
 
 ```javascript 
