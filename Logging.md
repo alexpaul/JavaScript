@@ -2,6 +2,8 @@
 
 Printing to the JavaScript console.
 
+Enter the following code commands in a [repl.it](https://repl.it) or a JavaScript editor of your choice. 
+
 ```javascript
 console.log('Welcome to JavaScript'); // "Welcome to JavaScript"
 ```
