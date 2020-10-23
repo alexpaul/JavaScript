@@ -132,3 +132,34 @@ let x = 0 === ''; // false, better usage for equality as it respects the types i
 ```
 
 > Reminder: Always use the `===` to test types for equality. 
+
+## Challenges 
+
+#### Challenge 1 
+
+Fill out the correct data type next to the comments if the code below
+
+```javascript 
+const length = 16;            // 
+const lastName = 'Johnson';   // 
+const x = {
+  firstName: 'John',
+  lastName: 'Doe'
+};                            //
+```
+
+<details>
+  <summary>Solution</summary> 
+  
+```javascript 
+const length = 16;            // number
+const lastName = 'Johnson';   // string
+const x = {
+  firstName: 'John',
+  lastName: 'Doe'
+};                            // object
+```
+
+</details> 
+
+***
