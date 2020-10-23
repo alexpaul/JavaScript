@@ -318,7 +318,7 @@ console.log(nancy); // { name: 'Nancy' }
 console.log(heather); // { name: 'Alex' }
 ```
 
-## Traditional JavaScript object constructor vs (ECMAScript 2015) or ES6 classes 
+## Traditional JavaScript constructor functions vs (ECMAScript 2015) or ES6 classes 
 
 > MDN documentation: Prototypes are the mechanism by which JavaScript objects `inherit` features from one another.
 
@@ -328,7 +328,7 @@ console.log(heather); // { name: 'Alex' }
 
 > An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. This is often referred to as a `prototype chain`, and explains why different objects have properties and methods defined on other objects available to them.
 
-## Prototype objects 
+## Constructor functions  
 
 #### `Person` constructor function 
 
