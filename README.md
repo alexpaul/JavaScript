@@ -45,6 +45,29 @@ Beginning JavaSwift.
 1. [Eloquent JavaScript](https://eloquentjavascript.net/)
 1. [Mostly Adequate Guide to Functional Prograamming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/content/)
 
+## Projects 
+
+To evaluate your JavaScript fundamentals work on any of the following projects as a command line application. To take in user input use the `prompt()` method. 
+
+```javascript 
+const userInput = prompt('Please enter your name?'); 
+console.log(`Hi, ${userInput} get ready for an adventure.`);
+
+/*
+$ Please enter your name?> Alex
+Hi, Alex get ready for an adventure.
+*/
+```
+
+* Black Jack 
+* Mad Libs Generator
+* Rock, Paper, Scissors
+* Tic Tac Toe 
+* Hangman 
+* Calculator
+* Trivia Game
+* Text-Based Adventure Game
+
 ## Resources 
 
 1. [MDN - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
