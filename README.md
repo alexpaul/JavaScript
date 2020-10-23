@@ -54,3 +54,4 @@ Beginning JavaSwift.
 1. [repl.it - online IDE](https://repl.it/)
 1. [Microsoft - Beginning Series to JavaScript](https://www.youtube.com/watch?v=_EDM5aPVLmo&list=PLlrxD0HtieHhW0NCG7M536uHGOtJ95Ut2&index=1)
 1. [Intro to JavaScript: Arrays, Objects, Functions](https://www.teaching-materials.org/javascript/)
+1. [AirBnb JavaScript Style Guide](https://github.com/airbnb/javascript)
