@@ -481,6 +481,38 @@ console.log(notBad('This dinner is not!')); // 'This dinner is not!'
 
 *** 
 
+#### Challenge 7
+
+Define a `repeatify` function on the `String` object. The function accepts an integer that specifies how many times the string has to be repeated. The function returns the string repeated the number of times specified. For example:
+
+```javascript
+console.log('hello'.repeatify(3));
+```
+
+Should print `hellohellohello`.
+
+<details>
+  <summary>Solution</summary> 
+  
+```javascript 
+String.prototype.repeatify = function(times) {
+  let str = '';
+  for (let index = 0; index < times; index++) {
+    str += this;  
+  }
+  return str; 
+}
+'Alex is coding......'.repeatify(3);
+
+/*
+Alex is coding......Alex is coding......Alex is coding......
+*/
+```
+  
+</details> 
+
+*** 
+
 
 ## Resources 
 
