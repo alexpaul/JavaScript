@@ -390,6 +390,18 @@ console.log(person1.valueOf());
 // The person's age is 32
 ```
 
+#### Modifying prototyeps 
+
+```javascript 
+Person.prototype.bio = function(job) {
+  this.job = job; 
+  console.log(`Hi, my name is ${this.name.first} and I work as a ${this.job}.`); 
+};
+
+person1.bio('Full-Stack developer'); // now the `Person` object has a bio() method associated with all it's instances
+// Hi, my name is Bob and I work as a Full-Stack developer.
+```
+
 ## ES6 classes 
 
 ```javascript 
