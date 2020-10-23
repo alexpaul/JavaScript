@@ -318,7 +318,15 @@ console.log(nancy); // { name: 'Nancy' }
 console.log(heather); // { name: 'Alex' }
 ```
 
-## Traditional JavaScript objects vs ES6 classes 
+## Traditional JavaScript objects vs ECMAScript 2015 or ES6 classes 
+
+> MDN documentation: Prototypes are the mechanism by which JavaScript objects inherit features from one another.
+
+#### A prototype-based language?
+
+> MDN documentation: JavaScript is often described as a prototype-based language — to provide inheritance, objects can have a prototype object, which acts as a template object that it inherits methods and properties from.
+
+> An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. This is often referred to as a prototype chain, and explains why different objects have properties and methods defined on other objects available to them.
 
 ## Prototype objects 
 
