@@ -5,7 +5,7 @@ Printing to the JavaScript console.
 Enter the following code commands in a [repl.it](https://repl.it) or a JavaScript editor of your choice. 
 
 ```javascript
-console.log('Welcome to JavaScript'); // "Welcome to JavaScript"
+console.log('Welcome to JavaScript'); // This will print the following message to the console:  "Welcome to JavaScript"
 ```
 
 ```javascript
