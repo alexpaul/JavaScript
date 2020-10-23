@@ -163,3 +163,66 @@ const x = {
 </details> 
 
 ***
+
+#### Challenge 2 
+
+Complete the following data type predictions. 
+
+```javascript 
+typeof(15)
+// Prediction:
+// Actual:
+
+typeof(5.5)
+// Prediction:
+// Actual:
+
+typeof(NaN)
+// Prediction:
+// Actual:
+
+typeof("hello")
+// Prediction:
+// Actual:
+
+typeof(true)
+// Prediction:
+// Actual:
+
+typeof(1 != 2)
+// Prediction:
+// Actual:
+```
+
+<details> 
+  <summary>Solution</summary> 
+  
+```javasctipt 
+typeof(15)
+// Prediction: number
+// Actual: number
+
+typeof(5.5)
+// Prediction: number
+// Actual: number
+
+typeof(NaN)
+// Prediction: number
+// Actual: number
+
+typeof("hello")
+// Prediction: string
+// Actual: string
+
+typeof(true)
+// Prediction: boolean
+// Actual: boolean
+
+typeof(1 != 2)
+// Prediction: boolean
+// Actual: boolean
+```
+  
+</details> 
+
+***
