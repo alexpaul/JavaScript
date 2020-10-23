@@ -330,6 +330,8 @@ console.log(heather); // { name: 'Alex' }
 
 ## Prototype objects 
 
+#### `Person` constructor function 
+
 ```javascript 
 // Here we are using upppercase to denote that Person is a type
 // as opposed to a function person() 
@@ -342,9 +344,15 @@ function Person(first, last, age, gender, interests) {
   this.age = age; 
   this.gender = gender; 
 }
+```
 
+#### Creating a `Person` instance using the constructor above 
+
+```javascript 
 const person1 = new Person('Bob', 'Smith', 32, 'male', ['music', 'skiing']);
 ```
+
+The `Person` instance prototype object also inherits from the `Object.prototype` so methods such as `valueOf`, `toString` are available to it. 
 
 ## ES6 classes 
 
