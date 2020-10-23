@@ -362,7 +362,6 @@ for (const [key, value] of Object.entries(recipe)) {
 }
 
 /*
-Welcome to JavaSwift!
 Strawberry Cake
 Servings: 8
 Ingredients:
