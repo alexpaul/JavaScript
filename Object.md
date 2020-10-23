@@ -318,6 +318,46 @@ console.log(nancy); // { name: 'Nancy' }
 console.log(heather); // { name: 'Alex' }
 ```
 
+## Traditional JavaScript objects vs ES6 classes 
+
+## Prototype objects 
+
+```javascript 
+// Here we are using upppercase to denote that Person is a type
+// as opposed to a function person() 
+function Person(first, last, age, gender, interests) {
+  // property and method definitions 
+  this.name = {
+    'first': first, 
+    'last': last 
+  }
+  this.age = age; 
+  this.gender = gender; 
+}
+
+const person1 = new Person('Bob', 'Smith', 32, 'male', ['music', 'skiing']);
+```
+
+## ES6 classes 
+
+```javascript 
+// ES6 classes 
+
+class Person {
+  constructor() {
+
+  }
+
+  greeting() {
+
+  }
+
+  farewell() {
+    
+  }
+```
+
+
 ## 8. Challenges 
 
 #### Challenge 1
