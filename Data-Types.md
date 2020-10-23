@@ -137,7 +137,7 @@ let x = 0 === ''; // false, better usage for equality as it respects the types i
 
 #### Challenge 1 
 
-Fill out the correct data type next to the comments if the code below
+Fill out the correct data type next to the comments in the code below
 
 ```javascript 
 const length = 16;            // 
