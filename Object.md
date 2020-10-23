@@ -318,23 +318,22 @@ console.log(nancy); // { name: 'Nancy' }
 console.log(heather); // { name: 'Alex' }
 ```
 
-## Traditional JavaScript objects vs ECMAScript 2015 or ES6 classes 
+## Traditional JavaScript object constructor vs (ECMAScript 2015) or ES6 classes 
 
-> MDN documentation: Prototypes are the mechanism by which JavaScript objects inherit features from one another.
+> MDN documentation: Prototypes are the mechanism by which JavaScript objects `inherit` features from one another.
 
-#### A prototype-based language?
+#### A prototype-based language ?
 
 > MDN documentation: JavaScript is often described as a prototype-based language — to provide inheritance, objects can have a prototype object, which acts as a template object that it inherits methods and properties from.
 
-> An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. This is often referred to as a prototype chain, and explains why different objects have properties and methods defined on other objects available to them.
+> An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. This is often referred to as a `prototype chain`, and explains why different objects have properties and methods defined on other objects available to them.
 
 ## Prototype objects 
 
 #### `Person` constructor function 
 
 ```javascript 
-// Here we are using upppercase to denote that Person is a type
-// as opposed to a function person() 
+// Here we are using upppercase to denote that Person is a type as opposed to a function person() - good convention practice with naming
 function Person(first, last, age, gender, interests) {
   // property and method definitions 
   this.name = {
@@ -354,24 +353,65 @@ const person1 = new Person('Bob', 'Smith', 32, 'male', ['music', 'skiing']);
 
 The `Person` instance prototype object also inherits from the `Object.prototype` so methods such as `valueOf`, `toString` are available to it. 
 
+#### Printing `valueOf` on `person1`
+
+```javascript 
+console.log(person1.valueOf()); 
+
+/*
+Person {
+  name: { first: 'Bob', last: 'Smith' },
+  age: 32,
+  gender: 'male'
+}
+*/
+```
+
+#### Providing our own `valueOf` will cause our version on the `person1` instance to be printed to the console 
+
+```javascript 
+function Person(first, last, age, gender, interests) {
+  // property and method definitions 
+  this.name = {
+    'first': first, 
+    'last': last 
+  }
+  this.age = age; 
+  this.gender = gender; 
+
+  this.valueOf = function() {
+    console.log(`The person\'s age is ${age}`); 
+  }
+}
+```
+
+```javascript 
+console.log(person1.valueOf()); 
+// The person's age is 32
+```
+
 ## ES6 classes 
 
 ```javascript 
-// ES6 classes 
-
-class Person {
-  constructor() {
-
+class Venue {
+  constructor(name, location) { // similar to an initializer in Swift
+    this.name = name; 
+    this.location = location
   }
 
-  greeting() {
-
+  info() { // class method in JavaScript or instance method in Swift
+    console.log(`${this.name} is located in ${this.location}.`);
   }
+}
 
-  farewell() {
-    
-  }
+// now we can use the `new` keyword to create an instance of Venue() 
+const arthurAsheStadium = new Venue('Arthur Ashe', 'Flushing Meadows, NY'); 
+
+arthurAsheStadium.info(); 
+// Arthur Ashe is located in Flushing Meadows, NY
 ```
+
+#### TODO: inheritance using the `extends` keyword
 
 
 ## 8. Challenges 
