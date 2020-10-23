@@ -318,7 +318,7 @@ console.log(nancy); // { name: 'Nancy' }
 console.log(heather); // { name: 'Alex' }
 ```
 
-## Traditional JavaScript constructor functions vs (ECMAScript 2015) or ES6 classes 
+## 8. Traditional JavaScript constructor functions vs (ECMAScript 2015) or ES6 classes 
 
 > MDN documentation: Prototypes are the mechanism by which JavaScript objects `inherit` features from one another.
 
@@ -328,7 +328,7 @@ console.log(heather); // { name: 'Alex' }
 
 > An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. This is often referred to as a `prototype chain`, and explains why different objects have properties and methods defined on other objects available to them.
 
-## Constructor functions  
+## 9. Constructor functions  
 
 #### `Person` constructor function 
 
@@ -402,7 +402,7 @@ person1.bio('Full-Stack developer'); // now the `Person` object has a bio() meth
 // Hi, my name is Bob and I work as a Full-Stack developer.
 ```
 
-## ES6 classes 
+## 10. ES6 classes 
 
 ```javascript 
 class Venue {
@@ -426,7 +426,7 @@ arthurAsheStadium.info();
 #### TODO: inheritance using the `extends` keyword
 
 
-## 8. Challenges 
+## 11. Challenges 
 
 #### Challenge 1
 
@@ -731,7 +731,7 @@ Alex is coding......Alex is coding......Alex is coding......
 *** 
 
 
-## 9. Resources 
+## 12. Resources 
 
 1. [MDN - Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 1. [Stackoverflow - Is JavaScript a pass-by-reference or pass-by-value language?](https://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language)
