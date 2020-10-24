@@ -29,7 +29,7 @@ Download and add package and dependencies
 
 Download and add package to dev dependencies
 
-```npm inall --save-dev <package-name>```
+```npm install --save-dev <package-name>```
 
 ## Usage 
 
