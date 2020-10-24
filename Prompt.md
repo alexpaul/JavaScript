@@ -1,6 +1,9 @@
-# Prompt 
+# Reading STDIN user input 
 
+## Using `prompt()`
 Reading in input from the user can be done using `prompt()` .
+
+> prompt() will only work in browsers, not in IDE's sucs a VSCode. 
 
 ```javascript 
 const iOSMessage = 'Looks like you develop for Apple devices.'; 
@@ -18,6 +21,23 @@ if (input === 1) {
 ![prompt console](https://user-images.githubusercontent.com/1819208/96650431-e6521980-1300-11eb-937d-fa63891e3bbf.png)
 
 Try it in [repl.it](https://repl.it)
+
+## `readline` package 
+
+```javascript 
+var readline = require("readline");
+
+const r1 = readline.createInterface({
+    input: process.stdin, 
+    output: process.stdout
+}); 
+
+r1.question('Do you want to hit or pass ?', (answer) => {
+    console.log(`You entered ${answer}`); 
+
+    r1.close(); 
+}); 
+```
 
 
 ## Resource 
