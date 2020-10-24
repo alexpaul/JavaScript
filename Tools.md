@@ -27,6 +27,10 @@ Install node
 
 ```nvm install node```
 
+## [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) 
+
+shift, option, f => format your JavaScript code using the `Prettier` VSCode extension.
+
 ## [ESLint](https://eslint.org/) 
 
 > JavaScript linter.
