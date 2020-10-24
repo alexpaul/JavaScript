@@ -5,7 +5,7 @@
 
 > Code editor from Microsoft for JavaScript and other languages. 
 
-[download](https://code.visualstudio.com/)
+[Download](https://code.visualstudio.com/Download)
 
 ## [Node](https://nodejs.org/en/)
 
