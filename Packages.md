@@ -13,6 +13,10 @@ A registry to search packages.
 
 ## package.json 
 
+Create a `package.json` file 
+
+```npm init```
+
 * Metadata - your project's name, version, descrption, author, repository, license, etc 
 * Dependencies - the list of packages used by your project 
 * Scripts - commands to automate development tasks 
