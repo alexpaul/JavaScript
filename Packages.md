@@ -40,7 +40,7 @@ Download and add package to dev dependencies
 #### 2. `require` the package in your JavaScript file 
 
 ```javascript 
-var readline = require("readline");
+const readline = require("readline");
 ```
 
 #### 3. Using the installed package 
