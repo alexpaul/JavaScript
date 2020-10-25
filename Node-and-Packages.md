@@ -17,7 +17,7 @@ A package in Node can be used to add the following:
 
 An online egistry to search for node packages. 
 
-## 3. `package.json` file 
+## 3. Initialize `npm` in an application and create a `package.json` file 
 
 The `package.json` file is created when the following command is ran in terminal: 
 
@@ -28,6 +28,27 @@ The `package.json` file contains the following:
 * Metadata - your project's name, version, descrption, author, repository, license, etc 
 * Dependencies - the list of packages used by your project 
 * Scripts - commands to automate development tasks e.g `npm start` will run the application server
+
+Example of a `package.json` file 
+
+```json 
+{
+  "name": "demo-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alex Paul",
+  "license": "ISC"
+}
+```
+
+To bypass initialization questions 
+
+`npm init -y`
 
 ## 4. Installing a package 
 
