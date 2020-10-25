@@ -5,6 +5,6 @@ The `.gitignore` file allows you to include file to it that you do not want to c
 ## Useful files to include in the `.gitingore`
 
 ```
-.env 
-node_modules/
+.env # environment variables 
+node_modules/ # application packages can be re-install using `npm install` so no need to include them to the repository
 ```
