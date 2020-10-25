@@ -72,13 +72,36 @@ r1.question('Please enter your name?', (name) => {
 
 ## 6.`prettier` Package 
 
-```javascipt
+Prettier is used to format JavaScript code. 
+
+Install `prettier`
+
+`npm install --save-dev prettier`
+
+Edit the `package.json` scripts property to allow for quick running of `format`
+
+```javascript 
+"scripts": {
+  "format": "prettier --write *.js"
+}
 ```
+
+Usage 
+
+```npm run format```
+
 
 ## 7. `nodemon` Package
 
-```javascipt 
-```
+Nodemon is used to automatically watch for changed files and re-run the node server. 
+
+Install `nodemon`
+
+```npm install -g nodemon``` // using the -g flag enables the package to be available globally throughout applications
+
+Usage, now instead of using `node <script name>` to run a script we use: 
+
+```nodemon <script name>```
 
 ## 8. `express` Package
 
