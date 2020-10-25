@@ -119,7 +119,7 @@ Install `express`
 
 An example of web server JavaScript code that will listen on a specific port and render "Hello, world" if the API address is visited. 
 
-#### index.js file 
+Save the following code in a file called `index.js` 
 
 ```javascript 
 const express = require('express'); 
