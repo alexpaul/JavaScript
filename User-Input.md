@@ -3,7 +3,7 @@
 ## Using `prompt()`
 Reading in input from the user can be done using `prompt()` .
 
-> prompt() will only work in browsers, not in IDE's sucs a VSCode. 
+> prompt() will only work in browsers, not in IDE's such as VSCode. 
 
 ```javascript 
 const iOSMessage = 'Looks like you develop for Apple devices.'; 
