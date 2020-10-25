@@ -4,20 +4,20 @@
 
 ## What is a package?  
 
-Node is shipped with a package manager, called `npm`, Node package manager, similar to Cocoapod or Swift Package manager that allows for the installation of third party dependencies. 
+Node is shipped with a package manager, called `npm`, Node package manager, similar to Cocoapod or Swift Package manager allows for the installation of third party dependencies. 
 
-A package in Node can be used to accomplish the following: 
+A package in Node can be used to add the following: 
 
 * Libraries
 * Tools 
 * Shared Components 
 * Your app
 
-## [NPM](https://www.npmjs.com/) 
+## [npmjs.com](https://www.npmjs.com/) 
 
-A registry to search for packages. 
+An online egistry to search for node packages. 
 
-## package.json 
+## `package.json` file 
 
 The `package.json` file is created when the following command is ran in terminal: 
 
@@ -27,7 +27,7 @@ The `package.json` file contains the following:
 
 * Metadata - your project's name, version, descrption, author, repository, license, etc 
 * Dependencies - the list of packages used by your project 
-* Scripts - commands to automate development tasks 
+* Scripts - commands to automate development tasks e.g `npm start` will run the application server
 
 ## Installing a package 
 
