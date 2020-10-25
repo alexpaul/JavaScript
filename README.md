@@ -21,6 +21,7 @@ Beginning JavaSwift.
 1. [Loops](https://github.com/alexpaul/JavaScript/blob/main/Loops.md)
 1. [Functions](https://github.com/alexpaul/JavaScript/blob/main/Functions.md)
 1. [Objects](https://github.com/alexpaul/JavaScript/blob/main/Object.md)
+1. [Node and Packages](https://github.com/alexpaul/JavaScript/blob/main/Node-and-Packages.md)
 1. [JSON](https://github.com/alexpaul/JavaScript/blob/main/JSON.md)
 1. [Promises](https://github.com/alexpaul/JavaScript/blob/main/Promises.md)
 1. [Error Handling](https://github.com/alexpaul/JavaScript/blob/main/Error-Handling.md)
