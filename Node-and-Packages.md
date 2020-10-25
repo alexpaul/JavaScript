@@ -39,9 +39,9 @@ Download and add package to dev dependencies that will only be used for developm
 
 ```npm install --save-dev <package-name>```
 
-## 5. A few Node package installations and use cases
+## A few Node package installations and use cases
 
-## 6. `readline` Package 
+## 5. `readline` Package 
 
 #### 1. Install `readline` package 
 
@@ -70,12 +70,12 @@ r1.question('Please enter your name?', (name) => {
 }); 
 ```
 
-## 7.`prettier` Package 
+## 6.`prettier` Package 
 
 ```javascipt
 ```
 
-## 8. `nodemon` Package
+## 7. `nodemon` Package
 
 ```javascipt 
 ```
