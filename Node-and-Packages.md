@@ -1,6 +1,6 @@
 # Node and Packages
 
-[Node](https://nodejs.org/en/) is a JavaScript runtime that allows building of server-side and client-side applications. 
+[Node](https://nodejs.org/en/) is a **JavaScript runtime** that allows building of server-side and client-side applications. 
 
 ## What is a package?  
 
