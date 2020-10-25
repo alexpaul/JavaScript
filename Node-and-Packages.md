@@ -151,3 +151,36 @@ Using the run script
 
 ```npm start```
 
+## 9. `dotenv` Package
+
+`dotenv` allows for environment variables configuration, such as managing API keys and credentials. 
+
+Install `dotenv`
+
+```npm install dotenv```
+
+
+Edit the web server JavaScript file 
+
+```javascript 
+require('dotenv').config(); 
+
+const express = require('express'); 
+const app = express(); 
+const port = process.env.PORT; 
+
+console.log(port); // 5000
+```
+
+Create a `.env` file 
+
+```
+PORT=5000
+```
+
+Re-run the web server and all should still work as before, only this time the the port number is not exposed in the JavaScript code. 
+
+> Don't forget to add your `env` file to the `.gitignore` 
+
+[Read more about the dotenv Package](https://www.npmjs.com/package/dotenv)
+
