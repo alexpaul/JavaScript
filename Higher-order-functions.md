@@ -1,5 +1,7 @@
 # Higher order functions 
 
+A higher-order function is a function that takes in another function or returns a function. Such functions include `map` and `filter`. 
+
 ## Re-creating the built-in `map` function
 
 Custom map
