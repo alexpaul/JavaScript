@@ -39,7 +39,7 @@ r1.question('Do you want to hit or pass ?', (answer) => {
 }); 
 ```
 
-#### Loops with `readline`
+#### Looping with `readline`
 
 In order to create a looping structure e.g creating a Text Adventure game or a BlackJack game using `readline` you must use a recursive function as a `while` or `do...while` won't execute continuosuly using `readline`. 
 
