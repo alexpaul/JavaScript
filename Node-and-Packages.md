@@ -2,7 +2,7 @@
 
 [Node](https://nodejs.org/en/) is a **JavaScript runtime** that allows building of server-side and client-side applications. 
 
-## What is a package?  
+## 1. What is a package?  
 
 Node is shipped with a package manager, called `npm`, Node package manager, similar to Cocoapod or Swift Package manager allows for the installation of third party dependencies. 
 
@@ -13,11 +13,11 @@ A package in Node can be used to add the following:
 * Shared Components 
 * Your app
 
-## [npmjs.com](https://www.npmjs.com/) 
+## 2. [npmjs.com](https://www.npmjs.com/) 
 
 An online egistry to search for node packages. 
 
-## `package.json` file 
+## 3. `package.json` file 
 
 The `package.json` file is created when the following command is ran in terminal: 
 
@@ -29,7 +29,7 @@ The `package.json` file contains the following:
 * Dependencies - the list of packages used by your project 
 * Scripts - commands to automate development tasks e.g `npm start` will run the application server
 
-## Installing a package 
+## 4. Installing a package 
 
 Download and add package and dependencies to be included in production.
 
@@ -39,7 +39,9 @@ Download and add package to dev dependencies that will only be used for developm
 
 ```npm install --save-dev <package-name>```
 
-## An example usage of adding dependencies to a Node application 
+## 5. A few Node package installations and use cases
+
+## 6. `readline` Package 
 
 #### 1. Install `readline` package 
 
@@ -67,3 +69,14 @@ r1.question('Please enter your name?', (name) => {
     r1.close(); // need to close the readline connection to return to the application's regular execution
 }); 
 ```
+
+## 7.`prettier` Package 
+
+```javascipt
+```
+
+## 8. `nodemon` Package
+
+```javascipt 
+```
+
