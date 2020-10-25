@@ -103,6 +103,10 @@ Usage, now instead of using `node <script name>` to run a script we use:
 
 ```nodemon <script name>```
 
+To restart a running application 
+
+```rs```
+
 ## 8. `express` Package
 
 ```javascipt 
