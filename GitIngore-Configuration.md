@@ -1,0 +1,10 @@
+# gitignore 
+
+The `.gitignore` file allows you to include file to it that you do not want to commit to the Github repository. 
+
+## Useful files to include in the `.gitingore`
+
+```
+.env 
+node_modules/
+```
