@@ -111,7 +111,43 @@ To restart a running application
 
 ## 8. `express` Package
 
-```javascipt 
+`express` is a Node package that allows us to create web servers to host APIs that allow for http request, reponses and supports HTTP methods e.g GET and POST.
+
+Install `express` 
+
+`npm install express` 
+
+An example of web server JavaScript code that will listen on a specific port and render "Hello, world" if the API address is visited. 
+
+#### index.js file 
+
+```javascript 
+const express = require('express'); 
+const app = express(); 
+const port = 3000; 
+
+app.get('/', (request, response) => {
+    response.send(`Hello World!`); 
+}); 
+
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`); 
+}); 
 ```
 
+To run the `express` web server 
+
+```node index.js```
+
+Edit the `package.json` to include a run script
+
+```javascript 
+"scripts": {
+  "start": "node index.js"
+}
+```
+
+Using the run script 
+
+```npm start```
 
