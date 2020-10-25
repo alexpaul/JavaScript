@@ -60,11 +60,11 @@ Hi, Alex get ready for an adventure.
 */
 ```
 
-* Black Jack 
 * Mad Libs Generator
 * Rock, Paper, Scissors
 * Tic Tac Toe 
 * Hangman 
+* [Black Jack](https://github.com/alexpaul/black-jack) 
 * Calculator
 * Trivia Game
 * Text-Based Adventure Game
