@@ -97,7 +97,9 @@ Nodemon is used to automatically watch for changed files and re-run the node ser
 
 Install `nodemon`
 
-```npm install -g nodemon``` // using the -g flag enables the package to be available globally throughout applications
+```javascript
+npm install -g nodemon // using the -g flag enables the package to be available globally throughout applications
+```
 
 Usage, now instead of using `node <script name>` to run a script we use: 
 
