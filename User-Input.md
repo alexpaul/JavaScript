@@ -39,6 +39,26 @@ r1.question('Do you want to hit or pass ?', (answer) => {
 }); 
 ```
 
+#### Loops with `readline`
+
+In order to create a looping structure e.g creating a Text Adventure game or a BlackJack game using `readline` you must use a recursive function as a `while` or `do...while` won't execute continuosuly using `readline`. 
+
+```javascript 
+const gamePlay = function() {
+  r1.question('Enter yes or no?', (answer) => {
+    console.log(`You answered ${answer}`); 
+    if (answer !== 'yes') {
+      return r1.close(); 
+    }
+    gamePlay(); 
+  }); 
+}; 
+
+gamePlay(); 
+```
+
+[Stackoverflow - How to readline infinitely in node](https://stackoverflow.com/questions/24464404/how-to-readline-infinitely-in-node-js)
+
 
 ## Resource 
 
