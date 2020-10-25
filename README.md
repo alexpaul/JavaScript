@@ -10,6 +10,19 @@ Beginning JavaSwift.
 >
 >For the majority of the examples here you can use [repl.it](https://repl.it) to execute the JavaScript statements. Approach learning the content chronologically base on the `Table of Contents` and complete the given exercises at the bottom of the modules for practice.
 
+JavaScript allows developers to write client-side (web user interfaces) and server-side (web APIs) applications. 
+
+Some technologies of a full-stack developer: 
+
+```javascript 
+const fullStackDeveloper = {
+  userInterfaces: ['html', 'css'],
+  languages: ['javascript', 'typescript', 'python', 'php'], 
+  backend: ['node', 'express', 'posgreSQL', 'mysql', 'aws', 'mongodb'],
+  frontEndFrameworks: ['react', 'redux', 'ember', 'angular', 'vue.js']
+}; 
+```
+
 ## Table of Contents 
 
 1. [Logging](https://github.com/alexpaul/JavaScript/blob/main/Logging.md)
