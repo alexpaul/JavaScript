@@ -2,6 +2,9 @@
 
 > MDN documentation: The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 
+
+## An example of object destructuring
+
 ```javascript 
 // 1
 const apiObject = {
@@ -29,3 +32,5 @@ console.log(data);
 Use destructuring to retrieve status, add to step 2 above as we can use comma delimeter to include more properties for destructuring
 */
 ```
+
+# 1. [MDN - Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
