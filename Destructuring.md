@@ -24,7 +24,7 @@ console.log(data);
 
 /*
 1. An object with various key, value pairs 
-2. Using destructing to get to only the values we need from an object. 
+2. Using destructuring to get to only the values we need from an object. 
 3. Prints out only the { data } key,value pair 
 */
 
