@@ -33,4 +33,6 @@ Use destructuring to retrieve status, add to step 2 above as we can use comma de
 */
 ```
 
-# 1. [MDN - Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+## Resources 
+
+1. [MDN - Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
