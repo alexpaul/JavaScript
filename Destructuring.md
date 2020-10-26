@@ -29,7 +29,7 @@ console.log(data);
 */
 
 /*
-Exercise: use destructuring to retrieve status, add to step 2 above as we can use comma delimeter to include more properties for destructuring
+Exercise: use destructuring to retrieve status, add to step 2 above as we can use comma delimeters to include more properties for destructuring
 */
 ```
 
