@@ -18,7 +18,9 @@ Some technologies of a full-stack developer:
 const fullStackDeveloper = {
   languages: ['javascript', 'typescript', 'python', 'php'], 
   userInterfaces: ['html', 'css'],
-  backend: ['node', 'express', 'posgreSQL', 'mysql', 'aws', 'mongodb'],
+  backend: ['node', 'express'],
+  cloud: ['aws', 'azure', 'google'],
+  databases: ['mongodb', 'mysql', 'posgreSQL'],
   frontEndFrameworks: ['react', 'redux', 'ember', 'angular', 'vue.js']
 }; 
 ```
